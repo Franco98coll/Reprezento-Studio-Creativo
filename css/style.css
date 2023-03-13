@@ -619,6 +619,8 @@ label{
     margin-left: 10px;
 }
 textarea{
+    padding-top: 20px;
+    padding-left: 20px;
     min-height: 63px;
     color: #ffffff;
     width: 600px;
