@@ -12,13 +12,19 @@ header{
 /* NAVBAR */
 
 .navbar .navbar-nav  li  a{
-    color: #F6F6F6 ;
+    font-family: 'Manrope', sans-serif;
+    color: #ffffff ;
     font-weight: 800 ;
     font-size: 16px;
     line-height: 17.6px ;
     margin-left: 40px;
 }
 .navbar .navbar-nav  li  .contacto{
+    font-family: 'Manrope', sans-serif;
+    color: #ffffff ;
+    font-weight: 800 ;
+    font-size: 16px;
+    line-height: 17.6px ;
     margin-right: -100px;
 }
 .navbar1{
@@ -26,13 +32,15 @@ header{
     background-color: #0D0D0D;
     margin-bottom: 400px;
 }
-
 .scroll{
     height: 88px;
     background-color: #0D0D0D;
     border-radius: 20px;
     margin-left: 50px ;
     margin-right: 40px; 
+}
+.scroll #logo{
+    margin-left: 10px;
 }
 .navbar-collapse{
     background-color: #0D0D0D;
@@ -41,6 +49,7 @@ header{
     border-radius: 20px;
 }
 #logo{
+    margin-left: 100px;
     width: 154px;
 }
 .active{
@@ -53,6 +62,7 @@ header{
 
 /* HERO */
 .hero{
+    font-family: 'Manrope', sans-serif;
     background-color: #0D0D0D;
     margin-top: 87px;
     padding-left: 70px;
@@ -73,15 +83,15 @@ header{
     margin-right: 60px;
 }
 .h1h{
-    color: #F6F6F6;
+    color: #ffffff;
     z-index: 100;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 400;
     font-size: 48px;
     line-height: 52.81px;
     margin-left: 133px;
     margin-top: 100px;
-    margin-right: 84px;
+    margin-right: 104px;
     margin-bottom: 87px;
 }
 .orange{
@@ -103,6 +113,7 @@ header{
 /* SERVICIOS */
 
 .servicios{
+    font-family: 'Manrope', sans-serif;
     color: #ffffff;
     background-color: #0D0D0D;
 }
@@ -112,8 +123,7 @@ header{
     font-size: 30px;
     line-height: 33.61px;
     margin-top: 152px;
-    
-    color: #F6F6F6;
+    color: #ffffff;
 }
 .linea{
     padding-bottom: 35px;
@@ -128,18 +138,19 @@ header{
     border-radius: 20px;
     margin-top: 126px;
     padding-top: 1px;
+    margin-left: 100px;
 }
 .h4-card{
     
     line-height: 35px;
-    color: #F6F6F6;
+    color: #ffffff;
     margin-left: 33px;
     margin-top: 29px;
     margin-right: 200px;
 }
 .p-card{
     line-height: 22px;
-    color: #F6F6F6;
+    color: #ffffff;
     margin-left: 33px;
     margin-right: 34px;
     margin-top: 22px;
@@ -154,19 +165,19 @@ header{
     border-radius: 20px;
     margin-top: 126px;
     padding-top: 1px;
-    margin-left: -30px;
+    margin-left: -50px;
 }
 .h4-card-2{
     
     line-height: 35px;
-    color: #F6F6F6;
+    color: #ffffff;
     margin-left: 33px;
     margin-top: 29px;
     margin-right: 91px;
 }
 .p-card-2{
     line-height: 22px;
-    color: #F6F6F6;
+    color: #ffffff;
     margin-left: 33px;
     margin-right: 29px;
     margin-top: 22px;
@@ -178,19 +189,19 @@ header{
     border-radius: 20px;
     margin-top: 20px;
     padding-top: 1px;
-    
+    margin-left: 100px;
 }
 .h4-card-3{
     
     line-height: 35px;
-    color: #F6F6F6;
+    color: #ffffff;
     margin-left: 33px;
     margin-top: 29px;
     margin-right: 91px;
 }
 .p-card-3{
     line-height: 22px;
-    color: #F6F6F6;
+    color: #ffffff;
     margin-left: 33px;
     margin-right: 34px;
     margin-top: 62px;
@@ -202,20 +213,20 @@ header{
     border-radius: 20px;
     margin-top: 20px;
     padding-top: 1px;
-    margin-left: -30px;
+    margin-left: -50px;
     margin-bottom: 178px;
 }
 .h4-card-4{
     
     line-height: 35px;
-    color: #F6F6F6;
+    color: #ffffff;
     margin-left: 33px;
     margin-top: 29px;
     margin-right: 91px;
 }
 .p-card-4{
     line-height: 22px;
-    color: #F6F6F6;
+    color: #ffffff;
     margin-left: 33px;
     margin-right: 29px;
     margin-top: 22px;
@@ -230,6 +241,7 @@ header{
 /* IDEAS */
 
 .ideas{
+    font-family: 'Manrope', sans-serif;
     background-color: #0D0D0D;
 }
 .div-p-ideas{
@@ -265,6 +277,7 @@ header{
 /* TEAMS */
 
 .teams{
+    font-family: 'Manrope', sans-serif;
     background-color: #0D0D0D;
 }
 .nuestro-team{
@@ -293,78 +306,67 @@ header{
     padding-bottom: 32px;
     margin-left: 104px;
 }
-.img-luis{
-    display: flex;
-    flex-direction: row;
-    margin-left: 200px;
-    margin-top: 216px;
-    z-index: 1;
-}
-#luis{
-    margin-left: 20px;
-    width: 250px;
-    height: 424px;
-    border-radius: 20px;
-    object-fit: cover;
-    opacity: 1;
-}
 .teams-alineado{
     display: flex;
     flex-direction: row;
 }
-
-.aparecer:hover #luis{
-    transform: scale(1.15);
-    object-fit:fill;
+.alineado{
+    margin-top: 216px;
+    margin-left: 350px;
+    display: flex;
+    width: 800px;
 }
-.aparecer:hover #p-luis{
-    transform: scale(1.064);
+.carta{
+    border-radius: 20px;
+    background-size: cover;
+    background-position: -300px;
+    background-image: url(/img/IMG-20190719-WA0151.jpg);
+    transition: all 300ms ease-in-out;
+    margin-right: 20px;
+    width: 450px;
+    height: 424px;
+}
+.carta img{
+    border-radius: 20px;
+    width: 250px;
+    height: 424px;
+}
+.carta:hover {
+    width: 850px;
+    flex-grow: 2;
+}
+.carta:hover p{
     opacity: 1;
 }
-
-#p-luis{
-    border-radius: 0px 0px 20px 20px;
-    object-fit: cover;
-    position: relative;
-    top: -8px;
-    left: 10px;
+.carta:not(:hover)  {
+    width: 350px;
+    flex-grow: 1;
+}
+.carta p{
+    padding-top: 20px;
+    transform: scale(0.9);
+    border-radius: 20px;
+    margin-top: 330px;
+    padding-top: 20px;
     padding-left: 20px;
     color: #ffffff;
     background-color: #FE3B1F;
-    height: 40px;
+    height: 70px;
     opacity: 0;
 }
-.img-vicky{
-    display: flex;
-    flex-direction: row;
-    margin-left: 10px;
-    margin-top: 216px;
-    z-index: 1;
-}
-.smm{
-    font-size: 15px;
-}
-.img-mica{
-    display: flex;
-    flex-direction: row;
-    margin-left: 10px;
-    margin-top: 216px;
-    z-index: 1;
-}
 .teams-alineado-2{
-    display: flex;
-    flex-direction: row;
-    margin-left: 273px;
-    margin-top: -250px;
+    margin-bottom: 100px;
 }
 
 /* OFRECEMOS */
 
 .ofrecemos{
+    font-family: 'Manrope', sans-serif;
     background-color: #0D0D0D;
     color: #ffffff;
 }
 .h4-ofrecemos{
+    
     color: #ffffff;
     margin: 300px 150px 0px 104px;
     border-bottom: solid 3px #FE3B1F;
@@ -377,6 +379,7 @@ header{
     margin: 43px 0px 0px 104px;
 }
 .accordion {
+    font-family: 'Manrope', sans-serif;
     background-color: #181818;
     max-width: 800px;
     margin: 300px 0px 0px 104px;
@@ -390,6 +393,7 @@ header{
 }
 
 .accordion-header {
+    font-family: 'Manrope', sans-serif;
     border-radius: 20px;
     background-color: #181818;
     color: #fff;
@@ -400,11 +404,16 @@ header{
     display: flex;
 }
 .accordion-header p{
+    font-family: 'Manrope', sans-serif;
     margin-top: 10px;
+    font-size: 20px;
 }
 
+.accordion-content{
+    font-family: 'Manrope', sans-serif;
+}
 .accordion-header:hover:not(.active) {
-    background-color: orange;
+    background-color: #FE3B1F;
 }
 .accordion-header:hover:not(.active) .cruz {
     color: #ffffff;
@@ -426,7 +435,7 @@ header{
 .cruz {
     margin-top: 10px;
     color: #FE3B1F;
-    margin-left: 10px;
+    margin-left: -30px;
 }
 .espacio-texto{
     width: 350px;
@@ -451,7 +460,7 @@ header{
     margin-top: 10px;
     font-weight: 600;
     color: #FE3B1F;
-    margin-left: 10px;
+    margin-left: -20px;
 }
 .accordion-header.active .cruz-2{
     color: #181818;
@@ -527,6 +536,7 @@ header{
 /* MARCAS */
 
 .clientes{
+    font-family: 'Manrope', sans-serif;
     background-color: #181818;
     color: #ffffff;
 }
@@ -550,7 +560,7 @@ header{
 }
 #abogados{
     margin-left: 40px;
-    width: 300px;
+    width: 350px;
     height: 63px;
 }
 #adventure{
@@ -572,6 +582,7 @@ header{
 /* CONTACTO */
 
 .contacto{
+    font-family: 'Manrope', sans-serif;
     background-color: #0D0D0D;
     color: #ffffff;
 }
@@ -637,12 +648,14 @@ input[type=number]::-webkit-inner-spin-button {
     border-radius: 20px;
     color: #FE3B1F;
     margin-bottom: 220px;
+    transition: all 0.3s ease-in-out;
 }
 .form button:hover{
     background-color: #FE3B1F;
     color: #ffffff;
 }
 .prefooter{
+    font-family: 'Manrope', sans-serif;
     background-color: #181818;
     color: #ffffff;
 }
@@ -708,6 +721,7 @@ input[type=number]::-webkit-inner-spin-button {
     color: #FE3B1F;
 }
 footer{
+    font-family: 'Manrope', sans-serif;
     background-color: #111111;
     color: #ffffff;
     font-size: 14px;
@@ -1064,69 +1078,58 @@ footer div p{
         padding-bottom: 32px;
         margin-left: 104px;
     }
-    .img-luis{
-        display: flex;
-        flex-direction: row;
-        margin-left: 200px;
-        margin-top: 216px;
-        z-index: 1;
-    }
-    #luis{
-        margin-left: 20px;
-        width: 200px;
-        height: 424px;
-        border-radius: 20px;
-        object-fit: cover;
-        opacity: 1;
-    }
     .teams-alineado{
         display: flex;
         flex-direction: row;
     }
-    
-    .aparecer:hover #luis{
-        transform: scale(1.15);
-        object-fit:fill;
+    .alineado{
+        margin-top: 216px;
+        margin-left: 100px;
+        display: flex;
+        width: 800px;
     }
-    .aparecer:hover #p-luis{
-        transform: scale(1.064);
+    .carta{
+        border-radius: 20px;
+        background-size: cover;
+        background-position: -300px;
+        background-image: url(/img/IMG-20190719-WA0151.jpg);
+        transition: all 0.3s ease-in-out;
+        margin-right: 20px;
+        width: 450px;
+        height: 424px;
+    }
+    .carta img{
+        border-radius: 20px;
+        width: 250px;
+        height: 424px;
+    }
+    .carta:hover {
+        width: 850px;
+        flex-grow: 2;
+    }
+    .carta:hover p{
         opacity: 1;
     }
-    
-    #p-luis{
-        border-radius: 0px 0px 20px 20px;
-        object-fit: cover;
-        position: relative;
-        top: -8px;
-        left: 10px;
+    .carta:not(:hover)  {
+        width: 350px;
+        flex-grow: 1;
+    }
+    .carta p{
+        padding-top: 20px;
+        transform: scale(0.9);
+        border-radius: 20px;
+        margin-top: 330px;
+        padding-top: 20px;
         padding-left: 20px;
         color: #ffffff;
         background-color: #FE3B1F;
-        height: 40px;
+        height: 70px;
         opacity: 0;
     }
-    .img-vicky{
-        display: flex;
-        flex-direction: row;
-        margin-left: 10px;
-        margin-top: 216px;
-        z-index: 1;
-    }
-    .smm{
-        font-size: 15px;
-    }
-    .img-mica{
-        display: flex;
-        flex-direction: row;
-        margin-left: 10px;
-        margin-top: 216px;
-        z-index: 1;
-    }
     .teams-alineado-2{
-        display: flex;
-        flex-direction: row;
-        margin-left: 273px;
-        margin-top: -250px;
+        margin-top: -300px;
+        margin-left: 300px;
+        margin-bottom: 200px;
     }
     
     /* OFRECEMOS */
@@ -1302,7 +1305,7 @@ footer div p{
         color: #ffffff;
     }
     .marcas{
-        margin: 103px 1080px 150px 104px;
+        margin: 103px 600px 150px 104px;
         border-bottom: solid 3px #FE3B1F;
     }
     .marcas h4{
@@ -1741,70 +1744,60 @@ footer div p{
     margin-left: 28px;
     margin-right: 28px;
 }
-.img-luis{
-    display: flex;
-    flex-direction: row;
-    margin-left: 55px;
-    margin-top: 216px;
-    z-index: 1;
-}
-#luis{
-    margin-left: 180px;
-    width: 450px;
-    height: 624px;
-    border-radius: 20px;
-    object-fit: cover;
-    opacity: 1;
-}
 .teams-alineado{
     display: flex;
     flex-direction: column;
 }
-
-.aparecer:hover #luis{
-    transform: scale(1.25);
-    object-fit:fill;
+.alineado{
+    margin-top: 216px;
+    margin-left:80px;
+    display: flex;
+    width: 800px;
 }
-.aparecer:hover #p-luis{
-    transform: scale(0.895);
+.carta{
+    border-radius: 20px;
+    background-size: cover;
+    background-position: -300px;
+    background-image: url(/img/IMG-20190719-WA0151.jpg);
+    transition: all 0.3s ease-in-out;
+    margin-right: 20px;
+    width: 450px;
+    height: 424px;
+}
+.carta img{
+    border-radius: 20px;
+    width: 250px;
+    height: 424px;
+}
+.carta:hover {
+    width: 850px;
+    flex-grow: 2;
+}
+.carta:hover p{
     opacity: 1;
 }
-
-#p-luis{
-    border-radius: 0px 0px 20px 20px;
-    object-fit: cover;
-    position: relative;
-    top: 40px;
-    left: 90px;
+.carta:not(:hover)  {
+    width: 350px;
+    flex-grow: 1;
+}
+.carta p{
+    padding-top: 20px;
+    transform: scale(0.9);
+    border-radius: 20px;
+    margin-top: 330px;
+    padding-top: 20px;
     padding-left: 20px;
     color: #ffffff;
     background-color: #FE3B1F;
-    height: 40px;
+    height: 70px;
     opacity: 0;
 }
-.img-vicky{
-    display: flex;
-    flex-direction: row;
-    margin-left: 55px;
-    margin-top: 90px;
-    z-index: 1;
-}
-.smm{
-    font-size: 15px;
-}
-.img-mica{
-    display: flex;
-    flex-direction: row;
-    margin-left: 55px;
-    margin-top: 90px;
-    z-index: 1;
-}
 .teams-alineado-2{
-    display: flex;
-    flex-direction: column;
+    margin-top: -140px;
     margin-left: 0px;
-    margin-top: -100px;
+    margin-bottom: 200px;
 }
+
 /* OFRECEMOS */
 
 .ofrecemos{
@@ -2305,69 +2298,56 @@ footer div p{
     margin-left: 28px;
     margin-right: 28px;
 }
-.img-luis{
-    display: flex;
-    flex-direction: row;
-    margin-left: 55px;
-    margin-top: 216px;
-    z-index: 1;
-}
-#luis{
-    margin-left: 20px;
-    width: 250px;
-    height: 424px;
-    border-radius: 20px;
-    object-fit: cover;
-    opacity: 1;
-}
 .teams-alineado{
     display: flex;
     flex-direction: column;
 }
-
-.aparecer:hover #luis{
-    transform: scale(1.15);
-    object-fit:fill;
-}
-.aparecer:hover #p-luis{
-    transform: scale(1.064);
-    opacity: 1;
-}
-
-#p-luis{
-    border-radius: 0px 0px 20px 20px;
-    object-fit: cover;
-    position: relative;
-    top: -8px;
-    left: 10px;
-    padding-left: 20px;
-    color: #ffffff;
-    background-color: #FE3B1F;
-    height: 40px;
-    opacity: 0;
-}
-.img-vicky{
-    display: flex;
-    flex-direction: row;
-    margin-left: 55px;
-    margin-top: 90px;
-    z-index: 1;
-}
-.smm{
-    font-size: 15px;
-}
-.img-mica{
-    display: flex;
-    flex-direction: row;
-    margin-left: 55px;
-    margin-top: 90px;
-    z-index: 1;
-}
-.teams-alineado-2{
+.alineado{
+    margin-top: 216px;
+    margin-left: 90px;
     display: flex;
     flex-direction: column;
-    margin-left: 0px;
-    margin-top: -100px;
+max-width: 250px;
+}
+.carta{
+    max-width: 350px;
+    border-radius: 20px;
+    background-size: cover;
+    background-image: url(/img/IMG-20190719-WA0151.jpg);
+    margin-right: 20px;
+    width: 350px;
+    height: 350x;
+    margin-top: 90px;
+}
+.carta img{
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
+}
+.carta:hover {
+    height: 350px;
+    width: 350px;
+    
+}
+.carta:not(:hover){
+    width: 350px;
+    height: 350px;
+    
+}
+.carta p{
+    padding-top: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-top: 360px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+    background-color: #0D0D0D;
+    height: 70px;
+    opacity: 1;
+}
+.teams-alineado-2{
+    margin-top: -200px;
 }
 /* OFRECEMOS */
 
@@ -2866,69 +2846,56 @@ footer div p{
     margin-left: 28px;
     margin-right: 28px;
 }
-.img-luis{
-    display: flex;
-    flex-direction: row;
-    margin-left: 55px;
-    margin-top: 216px;
-    z-index: 1;
-}
-#luis{
-    margin-left: 20px;
-    width: 250px;
-    height: 424px;
-    border-radius: 20px;
-    object-fit: cover;
-    opacity: 1;
-}
 .teams-alineado{
     display: flex;
     flex-direction: column;
 }
-
-.aparecer:hover #luis{
-    transform: scale(1.15);
-    object-fit:fill;
-}
-.aparecer:hover #p-luis{
-    transform: scale(1.064);
-    opacity: 1;
-}
-
-#p-luis{
-    border-radius: 0px 0px 20px 20px;
-    object-fit: cover;
-    position: relative;
-    top: -8px;
-    left: 10px;
-    padding-left: 20px;
-    color: #ffffff;
-    background-color: #FE3B1F;
-    height: 40px;
-    opacity: 0;
-}
-.img-vicky{
-    display: flex;
-    flex-direction: row;
-    margin-left: 55px;
-    margin-top: 90px;
-    z-index: 1;
-}
-.smm{
-    font-size: 15px;
-}
-.img-mica{
-    display: flex;
-    flex-direction: row;
-    margin-left: 55px;
-    margin-top: 90px;
-    z-index: 1;
-}
-.teams-alineado-2{
+.alineado{
+    margin-top: 216px;
+    margin-left: 90px;
     display: flex;
     flex-direction: column;
-    margin-left: 0px;
-    margin-top: -100px;
+max-width: 250px;
+}
+.carta{
+    max-width: 320px;
+    border-radius: 20px;
+    background-size: cover;
+    background-image: url(/img/IMG-20190719-WA0151.jpg);
+    margin-right: 20px;
+    width: 320px;
+    height: 3200x;
+    margin-top: 90px;
+}
+.carta img{
+    border-radius: 20px;
+    width: 320px;
+    height: 320px;
+}
+.carta:hover {
+    height: 320px;
+    width: 320px;
+    
+}
+.carta:not(:hover){
+    width: 320px;
+    height: 320px;
+    
+}
+.carta p{
+    padding-top: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-top: 330px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+    background-color: #0D0D0D;
+    height: 70px;
+    opacity: 1;
+}
+.teams-alineado-2{
+    margin-top: -200px;
 }
 /* OFRECEMOS */
 
@@ -3403,69 +3370,56 @@ footer div p{
     margin-left: 28px;
     margin-right: 28px;
 }
-.img-luis{
-    display: flex;
-    flex-direction: row;
-    margin-left: 30px;
-    margin-top: 216px;
-    z-index: 1;
-}
-#luis{
-    margin-left: 30px;
-    width: 250px;
-    height: 424px;
-    border-radius: 20px;
-    object-fit: cover;
-    opacity: 1;
-}
 .teams-alineado{
     display: flex;
     flex-direction: column;
 }
-
-.aparecer:hover #luis{
-    transform: scale(1.15);
-    object-fit:fill;
-}
-.aparecer:hover #p-luis{
-    transform: scale(1.064);
-    opacity: 1;
-}
-
-#p-luis{
-    border-radius: 0px 0px 20px 20px;
-    object-fit: cover;
-    position: relative;
-    top: -8px;
-    left: 10px;
-    padding-left: 20px;
-    color: #ffffff;
-    background-color: #FE3B1F;
-    height: 40px;
-    opacity: 0;
-}
-.img-vicky{
-    display: flex;
-    flex-direction: row;
-    margin-left: 30px;
-    margin-top: 90px;
-    z-index: 1;
-}
-.smm{
-    font-size: 15px;
-}
-.img-mica{
-    display: flex;
-    flex-direction: row;
-    margin-left: 30px;
-    margin-top: 90px;
-    z-index: 1;
-}
-.teams-alineado-2{
+.alineado{
+    margin-top: 216px;
+    margin-left: 80px;
     display: flex;
     flex-direction: column;
-    margin-left: 0px;
-    margin-top: -100px;
+    max-width: 250px;
+}
+.carta{
+    max-width: 300px;
+    border-radius: 20px;
+    background-size: cover;
+    background-image: url(/img/IMG-20190719-WA0151.jpg);
+    margin-right: 20px;
+    width: 270px;
+    height: 270x;
+    margin-top: 90px;
+}
+.carta img{
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+}
+.carta:hover {
+    height: 30px;
+    width: 300px;
+    
+}
+.carta:not(:hover){
+    width: 300px;
+    height: 300px;
+    
+}
+.carta p{
+    padding-top: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-top: 310px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+    background-color: #0D0D0D;
+    height: 70px;
+    opacity: 1;
+}
+.teams-alineado-2{
+    margin-top: -200px;
 }
 /* OFRECEMOS */
 
@@ -3961,70 +3915,56 @@ footer div p{
     margin-left: 28px;
     margin-right: 28px;
 }
-.img-luis{
-    display: flex;
-    flex-direction: row;
-    margin-left: 15px;
-    margin-top: 216px;
-    z-index: 1;
-}
-#luis{
-    margin-left: 15px;
-    width: 200px;
-    height: 324px;
-    border-radius: 20px;
-    object-fit: cover;
-    opacity: 1;
-}
 .teams-alineado{
     display: flex;
     flex-direction: column;
 }
-
-.aparecer:hover #luis{
-    transform: scale(1.15);
-    object-fit:fill;
-}
-.aparecer:hover #p-luis{
-    transform: scale(1.073);
-    opacity: 1;
-}
-
-#p-luis{
-    line-height: 20px;
-    border-radius: 0px 0px 20px 20px;
-    object-fit: cover;
-    position: relative;
-    top: -8px;
-    left: 7px;
-    padding-left: 27px;
-    color: #ffffff;
-    background-color: #FE3B1F;
-    height: 40px;
-    opacity: 0;
-}
-.img-vicky{
-    display: flex;
-    flex-direction: row;
-    margin-left: 15px;
-    margin-top: 90px;
-    z-index: 1;
-}
-.smm{
-    font-size: 15px;
-}
-.img-mica{
-    display: flex;
-    flex-direction: row;
-    margin-left: 15px;
-    margin-top: 90px;
-    z-index: 1;
-}
-.teams-alineado-2{
+.alineado{
+    margin-top: 216px;
+    margin-left: 55px;
     display: flex;
     flex-direction: column;
-    margin-left: 0px;
-    margin-top: -100px;
+    max-width: 250px;
+}
+.carta{
+    max-width: 270px;
+    border-radius: 20px;
+    background-size: cover;
+    background-image: url(/img/IMG-20190719-WA0151.jpg);
+    margin-right: 20px;
+    width: 270px;
+    height: 270x;
+    margin-top: 90px;
+}
+.carta img{
+    border-radius: 20px;
+    width: 270px;
+    height: 270px;
+}
+.carta:hover {
+    height: 270px;
+    width: 270px;
+    
+}
+.carta:not(:hover){
+    width: 270px;
+    height: 270px;
+    
+}
+.carta p{
+    padding-top: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-top: 270px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+    background-color: #0D0D0D;
+    height: 70px;
+    opacity: 1;
+}
+.teams-alineado-2{
+    margin-top: -200px;
 }
 /* OFRECEMOS */
 
