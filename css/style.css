@@ -579,9 +579,10 @@ header{
     height: 84px;
 }
 #abogados{
+    margin-top: 20px;
     margin-left: 40px;
-    width: 350px;
-    height: 63px;
+    width: 300px;
+    height: 40.5px;
 }
 #adventure{
     margin-left: 40px;
