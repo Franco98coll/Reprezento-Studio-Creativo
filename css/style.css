@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Manrope', sans-serif;
     background-color: #0D0D0D ;
@@ -25,7 +26,7 @@ header{
     font-weight: 800 ;
     font-size: 16px;
     line-height: 17.6px ;
-    margin-right: -100px;
+    margin-right: -40px;
 }
 .navbar1{
     height: 88px;
@@ -37,7 +38,7 @@ header{
     background-color: #0D0D0D;
     border-radius: 20px;
     margin-left: 50px ;
-    margin-right: 40px; 
+    margin-right: 0px; 
 }
 .scroll #logo{
     margin-left: 10px;
@@ -47,9 +48,11 @@ header{
     padding-left: 80px;
     padding-right: 120px;
     border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #logo{
-    margin-left: 100px;
+    margin-left: 60px;
     width: 154px;
 }
 .active{
@@ -67,17 +70,21 @@ header{
     margin-top: 87px;
     padding-left: 70px;
     padding-right: 98px;
-    padding-top: 50px;
+    padding-top: 0px;
 }
 .cardhero{
     background-image: url(/img/rectangulo-degradado.png);
     background-size: cover;
     border-radius: 20px;
-}
-.prim{
-    border-right: solid 1px #4A4A4A;
+    height: 678px;
 }
 
+#linea{
+    margin-top: -565px;
+    margin-left: 725px;
+    width: 25px;
+    height: 530px;
+}
 .degra{
     margin-left: 70px;
     margin-right: 60px;
@@ -90,7 +97,7 @@ header{
     font-size: 48px;
     line-height: 52.81px;
     margin-left: 133px;
-    margin-top: 100px;
+    margin-top: 214px;
     margin-right: 104px;
     margin-bottom: 87px;
 }
@@ -98,11 +105,12 @@ header{
     color: #FE3B1F;
 }
 .repre{
-    width: 415px;
-    margin-left: 60px;
+    width: 615px;
+    margin-left: 103px;
     margin-top: 100px;
 }
 .flecha{
+    margin-top: -40px;
     width: 105px;
     margin-bottom: 40px;
 }
@@ -129,7 +137,7 @@ header{
     padding-bottom: 35px;
     margin-right: 42px;
     margin-left: 153px;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
 }
 .card-servicio{
     width: 379px;
@@ -233,7 +241,7 @@ header{
     
 }
 .linea-2{
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
     margin-left: -40px;
     margin-right: -40px;
 }
@@ -269,7 +277,7 @@ header{
     font-weight: 600;
 }
 .linea-3{
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
     margin-left: -40px;
     margin-right: -40px;
 }
@@ -284,7 +292,7 @@ header{
     padding-right: 40px;
     margin: 216px 0px 61px 104px;
     color: #ffffff;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
     line-height: 39.61px;
 }
 .nuestro-team h4{
@@ -369,7 +377,7 @@ header{
     
     color: #ffffff;
     margin: 300px 150px 0px 104px;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
 }
 .h4-ofrecemos h4{
     font-size: 40px;
@@ -542,7 +550,7 @@ header{
 }
 .marcas{
     margin: 103px 1080px 150px 104px;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
 }
 .marcas h4{
     font-size: 40px;
@@ -646,7 +654,7 @@ input[type=number]::-webkit-inner-spin-button {
     width: 198px;
     height: 55px;
     background-color: #0D0D0D;
-    border: solid 3px #FE3B1F;
+    border:  3px #FE3B1F;
     border-radius: 20px;
     color: #FE3B1F;
     margin-bottom: 220px;
@@ -738,6 +746,7 @@ footer div p{
     margin-top: 38px;
 }
 @media only screen and (max-width:1440px){
+    
     .espacio-texto{
         width: 400px;
     }
@@ -750,7 +759,7 @@ footer div p{
     padding-right: 40px;
     margin: 216px -150px 61px 104px;
     color: #ffffff;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
     line-height: 39.61px;
 }
 .nuestro-team h4{
@@ -852,7 +861,7 @@ footer div p{
         border-radius: 20px;
     }
     .prim{
-        border-right: solid 1px #4A4A4A;
+        border-right:  1px #4A4A4A;
     }
     
     .degra{
@@ -878,6 +887,12 @@ footer div p{
         width: 415px;
         margin-left: 60px;
         margin-top: 100px;
+    }
+    #linea{
+        margin-top: -525px;
+        margin-left: 545px;
+        width: 25px;
+        height: 500px;
     }
     .flecha{
         width: 105px;
@@ -906,7 +921,7 @@ footer div p{
         padding-bottom: 35px;
         margin-right: 42px;
         margin-left: 153px;
-        border-bottom: solid 3px #FE3B1F;
+        border-bottom:  3px #FE3B1F;
     }
     .card-servicio{
         width: 379px;
@@ -1009,7 +1024,7 @@ footer div p{
         
     }
     .linea-2{
-        border-bottom: solid 3px #FE3B1F;
+        border-bottom:  3px #FE3B1F;
         margin-left: -40px;
         margin-right: -40px;
     }
@@ -1044,7 +1059,7 @@ footer div p{
         font-weight: 600;
     }
     .linea-3{
-        border-bottom: solid 3px #FE3B1F;
+        border-bottom:  3px #FE3B1F;
         margin-left: -40px;
         margin-right: -40px;
     }
@@ -1058,7 +1073,7 @@ footer div p{
         padding-right: 40px;
         margin: 216px 0px 61px 104px;
         color: #ffffff;
-        border-bottom: solid 3px #FE3B1F;
+        border-bottom:  3px #FE3B1F;
         line-height: 39.61px;
     }
     .nuestro-team h4{
@@ -1143,7 +1158,7 @@ footer div p{
     .h4-ofrecemos{
         color: #ffffff;
         margin: 300px 150px 0px 104px;
-        border-bottom: solid 3px #FE3B1F;
+        border-bottom:  3px #FE3B1F;
     }
     .h4-ofrecemos h4{
         font-size: 40px;
@@ -1308,7 +1323,7 @@ footer div p{
     }
     .marcas{
         margin: 103px 600px 150px 104px;
-        border-bottom: solid 3px #FE3B1F;
+        border-bottom:  3px #FE3B1F;
     }
     .marcas h4{
         font-size: 40px;
@@ -1409,7 +1424,7 @@ footer div p{
         width: 198px;
         height: 55px;
         background-color: #0D0D0D;
-        border: solid 3px #FE3B1F;
+        border:  3px #FE3B1F;
         border-radius: 20px;
         color: #FE3B1F;
         margin-bottom: 220px;
@@ -1520,24 +1535,32 @@ footer div p{
         font-size: 36px;
         line-height: 39.81px;
         margin-left: 24px;
-        margin-top: 34px;
+        margin-top: 54px;
         margin-right: 30px;
         margin-bottom: 87px;
     }
+    .cardhero{
+        background-image: url(/img/rectangulo-degradado.png);
+        background-size: cover;
+        border-radius: 20px;
+        height: 430px;
+    }
+    
     .repre{
         width: 255px;
         margin-left: 40px;
-        margin-top: 47px;
+        margin-top: 54px;
         margin-bottom: 30px ;
     }
     .prim{
-        border-right: solid 1px #4A4A4A;
-        border-radius: 0px 20px;
+        border-right:  1px #4A4A4A;
+        margin-bottom: 70px;
     }
-    
-    .sec{
-        border-right: solid 1px #4A4A4A;
-        border-radius: 20px 0px;
+    #linea{
+        margin-top: -415px;
+        margin-left: 400px;
+        width: 25px;
+        height: 300px;
     }
     .cardhero{
         position: relative;
@@ -1546,8 +1569,8 @@ footer div p{
     }
     .flecha{
         position: absolute;
-        top: 245px;
-        left: 345px;
+        top: 355px;
+        left: 360px;
         width: 105px;
         margin-bottom: 40px;
     }
@@ -1570,7 +1593,7 @@ footer div p{
     padding-bottom: 35px;
     margin-right: 96px;
     margin-left: 26px;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
 }
 .card-servicio{
     width: 250px;
@@ -1625,7 +1648,7 @@ footer div p{
 }
 .card-servicio-3{
     width: 250px;
-    height: 240px;
+    height: 290px;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 20px;
@@ -1651,7 +1674,7 @@ footer div p{
 }
 .card-servicio-4{
     width: 250px;
-    height: 270px;
+    height: 290px;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 20px;
@@ -1678,7 +1701,7 @@ footer div p{
     
 }
 .linea-2{
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
     margin-left: 26px;
     margin-right: 26px;
 }
@@ -1714,7 +1737,7 @@ footer div p{
 }
 
 .linea-3{
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
     margin-left: 26px;
     margin-right: 26px;
 }
@@ -1727,7 +1750,7 @@ footer div p{
     padding-right: 40px;
     margin: 216px 500px 61px 28px;
     color: #ffffff;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
     line-height: 39.61px;
 }
 .p-teams{
@@ -1808,7 +1831,7 @@ footer div p{
 }
 .h4-ofrecemos{
     margin: 100px 28px 0px 28px;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
 }
 .p-ofrecemos{
     margin: 43px 28px 0px 28px;
@@ -1843,6 +1866,35 @@ footer div p{
 .cruz{
     margin-left: -390px;
 }
+.cruz-2 {
+    font-weight: 600;
+    color: #FE3B1F;
+    margin-left: 10px;
+}
+
+.cruz-3 {
+    font-weight: 600;
+    color: #FE3B1F;
+    margin-left: 10px;
+}
+
+.cruz-4 {
+    font-weight: 600;
+    color: #FE3B1F;
+    margin-left: 10px;
+}
+
+.cruz-5 {
+    font-weight: 600;
+    color: #FE3B1F;
+    margin-left: 10px;
+}
+
+.cruz-6 {
+    font-weight: 600;
+    color: #FE3B1F;
+    margin-left: 10px;
+}
 /* MARCAS */
 
 .clientes{
@@ -1851,7 +1903,7 @@ footer div p{
 }
 .marcas{
     margin: 103px 200px 150px 104px;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
 }
 .arreglo-marcas{
     display: flex;
@@ -1957,7 +2009,7 @@ input[type=number]::-webkit-inner-spin-button {
     width: 138px;
     height: 55px;
     background-color: #0D0D0D;
-    border: solid 3px #FE3B1F;
+    border:  3px #FE3B1F;
     border-radius: 20px;
     color: #FE3B1F;
     margin-bottom: 220px;
@@ -1986,7 +2038,7 @@ input[type=number]::-webkit-inner-spin-button {
 .img-2{
     width: 289px;
     height: 78px;
-    margin: 30px 0px 63px 0px;
+    margin: 91px 0px 63px 0px;
 }
 .links-pf{
     margin: 0px 0px 151px 40px;
@@ -2005,7 +2057,7 @@ input[type=number]::-webkit-inner-spin-button {
     line-height: 26.41px;
     font-weight: 400;
     font-size: 24px;
-    margin: 50px 0px 19px 30px;
+    margin: 91px 0px 19px 30px;
 }
 .p-2{
     color: #ffffff;
@@ -2073,7 +2125,7 @@ footer div p{
         line-height: 39.81px;
         margin-left: 24px;
         margin-top: 34px;
-        margin-right: 30px;
+        margin-right: 70px;
         margin-bottom: 87px;
     }
     .repre{
@@ -2082,13 +2134,19 @@ footer div p{
         margin-top: 47px;
         margin-bottom: 30px ;
     }
+    #linea{
+        margin-top: -650px;
+        margin-left: 320px;
+        width: 25px;
+        height: 675px;
+    }
     .prim{
-        border-right: solid 1px #4A4A4A;
+        border-right:  1px #4A4A4A;
         border-radius: 0px 20px;
     }
     
     .sec{
-        border-right: solid 1px #4A4A4A;
+        border-right:  1px #4A4A4A;
         border-radius: 20px 0px;
     }
     .cardhero{
@@ -2098,8 +2156,8 @@ footer div p{
     }
     .flecha{
         position: absolute;
-        top: 245px;
-        left: 345px;
+        top: 325px;
+        left: 280px;
         width: 105px;
         margin-bottom: 40px;
     }
@@ -2122,7 +2180,7 @@ footer div p{
     padding-bottom: 35px;
     margin-right: 96px;
     margin-left: 26px;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
 }
 .card-servicio{
     width: 350px;
@@ -2131,7 +2189,7 @@ footer div p{
     border-radius: 20px;
     margin-top: 126px;
     padding-top: 1px;
-    margin-left: 26px;
+    margin-left: 75px;
     margin-right: 26px;
 }
 .h4-card{
@@ -2159,7 +2217,7 @@ footer div p{
     border-radius: 20px;
     margin-top: 20px;
     padding-top: 1px;
-    margin-left: 26px;
+    margin-left: 75px;
     margin-right: 26px;
 }
 .h4-card-2{
@@ -2184,7 +2242,7 @@ footer div p{
     border-radius: 20px;
     margin-top: 20px;
     padding-top: 1px;
-    margin-left: 26px;
+    margin-left: 75px;
     margin-right: 26px;
     
 }
@@ -2213,7 +2271,7 @@ footer div p{
     margin-left: -30px;
     margin-bottom: 178px;
     margin-right: 26px;
-    margin-left: 26px;
+    margin-left: 75px;
 }
 .h4-card-4{
     
@@ -2232,7 +2290,7 @@ footer div p{
     
 }
 .linea-2{
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
     margin-left: 26px;
     margin-right: 26px;
 }
@@ -2268,7 +2326,7 @@ footer div p{
 }
 
 .linea-3{
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
     margin-left: 26px;
     margin-right: 26px;
 }
@@ -2281,7 +2339,7 @@ footer div p{
     padding-right: 40px;
     margin: 216px 140px 61px 28px;
     color: #ffffff;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
     line-height: 39.61px;
 }
 .p-teams{
@@ -2359,7 +2417,7 @@ max-width: 250px;
 }
 .h4-ofrecemos{
     margin: 300px 208px 0px 28px;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
 }
 .p-ofrecemos{
     margin: 43px 28px 0px 28px;
@@ -2399,7 +2457,7 @@ max-width: 250px;
 }
 .marcas{
     margin: 103px 200px 150px 104px;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
 }
 .arreglo-marcas{
     display: flex;
@@ -2505,7 +2563,7 @@ input[type=number]::-webkit-inner-spin-button {
     width: 138px;
     height: 55px;
     background-color: #0D0D0D;
-    border: solid 3px #FE3B1F;
+    border:  3px #FE3B1F;
     border-radius: 20px;
     color: #FE3B1F;
     margin-bottom: 220px;
@@ -2621,7 +2679,7 @@ footer div p{
         line-height: 39.81px;
         margin-left: 24px;
         margin-top: 34px;
-        margin-right: 30px;
+        margin-right: 70px;
         margin-bottom: 87px;
     }
     .repre{
@@ -2630,13 +2688,19 @@ footer div p{
         margin-top: 47px;
         margin-bottom: 30px ;
     }
+    #linea{
+        margin-top: -650px;
+        margin-left: 320px;
+        width: 25px;
+        height: 675px;
+    }
     .prim{
-        border-right: solid 1px #4A4A4A;
+        border-right:  1px #4A4A4A;
         border-radius: 0px 20px;
     }
     
     .sec{
-        border-right: solid 1px #4A4A4A;
+        border-right:  1px #4A4A4A;
         border-radius: 20px 0px;
     }
     .cardhero{
@@ -2646,8 +2710,8 @@ footer div p{
     }
     .flecha{
         position: absolute;
-        top: 245px;
-        left: 335px;
+        top: 325px;
+        left: 280px;
         width: 105px;
         margin-bottom: 40px;
     }
@@ -2670,7 +2734,7 @@ footer div p{
     padding-bottom: 35px;
     margin-right: 96px;
     margin-left: 26px;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
 }
 .card-servicio{
     width: 350px;
@@ -2679,7 +2743,7 @@ footer div p{
     border-radius: 20px;
     margin-top: 126px;
     padding-top: 1px;
-    margin-left: 26px;
+    margin-left: 70px;
     margin-right: 26px;
 }
 .h4-card{
@@ -2707,7 +2771,7 @@ footer div p{
     border-radius: 20px;
     margin-top: 20px;
     padding-top: 1px;
-    margin-left: 26px;
+    margin-left: 70px;
     margin-right: 26px;
 }
 .h4-card-2{
@@ -2732,7 +2796,7 @@ footer div p{
     border-radius: 20px;
     margin-top: 20px;
     padding-top: 1px;
-    margin-left: 26px;
+    margin-left: 70px;
     margin-right: 26px;
     
 }
@@ -2761,7 +2825,7 @@ footer div p{
     margin-left: -30px;
     margin-bottom: 178px;
     margin-right: 26px;
-    margin-left: 26px;
+    margin-left: 70px;
 }
 .h4-card-4{
     
@@ -2780,7 +2844,7 @@ footer div p{
     
 }
 .linea-2{
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
     margin-left: 26px;
     margin-right: 26px;
 }
@@ -2816,7 +2880,7 @@ footer div p{
 }
 
 .linea-3{
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
     margin-left: 26px;
     margin-right: 26px;
 }
@@ -2829,7 +2893,7 @@ footer div p{
     padding-right: 40px;
     margin: 216px 140px 61px 28px;
     color: #ffffff;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
     line-height: 39.61px;
 }
 .p-teams{
@@ -2907,7 +2971,7 @@ max-width: 250px;
 }
 .h4-ofrecemos{
     margin: 300px 208px 0px 28px;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
 }
 .p-ofrecemos{
     margin: 43px 28px 0px 28px;
@@ -2962,7 +3026,7 @@ max-width: 250px;
 }
 .marcas{
     margin: 103px 200px 150px 104px;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
 }
 .arreglo-marcas{
     display: flex;
@@ -3068,7 +3132,7 @@ input[type=number]::-webkit-inner-spin-button {
     width: 138px;
     height: 55px;
     background-color: #0D0D0D;
-    border: solid 3px #FE3B1F;
+    border:  3px #FE3B1F;
     border-radius: 20px;
     color: #FE3B1F;
     margin-bottom: 220px;
@@ -3173,33 +3237,45 @@ footer div p{
         margin-top: 87px;
         padding-left: 70px;
         padding-right: 60px;
+        margin-left: -35px;
+    }
+    .cardhero{
+        background-image: url(/img/rectangulo-degradado.png);
+        background-size: cover;
+        border-radius: 20px;
+        width: 400px;
     }
     .h1h{
         color: #F6F6F6;
         z-index: 100;
         font-family: 'Inter', sans-serif;
         font-weight: 400;
-        font-size: 26px;
+        font-size: 36px;
         line-height: 39.81px;
         margin-left: 24px;
         margin-top: 34px;
-        margin-right: 30px;
+        margin-right: 70px;
         margin-bottom: 87px;
     }
     .repre{
-        width: 205px;
-        margin-left: 50px;
-        margin-top: 47px;
-        margin-bottom: 30px ;
+        width: 255px;
+        margin-left: 20px;
+        margin-top: 87px;
+        margin-bottom: 0px ;
     }
     .prim{
-        border-right: solid 1px #4A4A4A;
-        border-radius: 0px 20px;
+        border-right:  1px #4A4A4A;
+        margin-bottom: 0px;
     }
-    
+    #linea{
+        margin-top: -590px;
+        margin-left: 320px;
+        width: 25px;
+        height: 675px;
+    }
     .sec{
-        border-right: solid 1px #4A4A4A;
-        border-radius: 20px 0px;
+        border-right:  1px #4A4A4A;
+        margin-bottom: 0px;
     }
     .cardhero{
         position: relative;
@@ -3208,8 +3284,8 @@ footer div p{
     }
     .flecha{
         position: absolute;
-        top: 235px;
-        left: 285px;
+        top: 325px;
+        left: 280px;
         width: 105px;
         margin-bottom: 40px;
     }
@@ -3231,7 +3307,7 @@ footer div p{
     padding-bottom: 35px;
     margin-right: 96px;
     margin-left: 26px;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
 }
 .card-servicio{
     width: 300px;
@@ -3240,7 +3316,7 @@ footer div p{
     border-radius: 20px;
     margin-top: 126px;
     padding-top: 1px;
-    margin-left: 26px;
+    margin-left: 70px;
     margin-right: 26px;
 }
 .h4-card{
@@ -3267,7 +3343,7 @@ footer div p{
     border-radius: 20px;
     margin-top: 20px;
     padding-top: 1px;
-    margin-left: 26px;
+    margin-left: 70px;
     margin-right: 26px;
 }
 .h4-card-2{
@@ -3292,7 +3368,7 @@ footer div p{
     border-radius: 20px;
     margin-top: 20px;
     padding-top: 1px;
-    margin-left: 26px;
+    margin-left: 70px;
     margin-right: 26px;
     
 }
@@ -3321,7 +3397,7 @@ footer div p{
     margin-left: -30px;
     margin-bottom: 178px;
     margin-right: 26px;
-    margin-left: 26px;
+    margin-left: 70px;
 }
 .h4-card-4{
     
@@ -3340,7 +3416,7 @@ footer div p{
     
 }
 .linea-2{
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
     margin-left: 26px;
     margin-right: 26px;
 }
@@ -3353,7 +3429,7 @@ footer div p{
     padding-right: 40px;
     margin: 216px 100px 61px 28px;
     color: #ffffff;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
     line-height: 39.61px;
 }
 .p-teams{
@@ -3431,7 +3507,7 @@ footer div p{
 }
 .h4-ofrecemos{
     margin: 300px 208px 0px 28px;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
 }
 .p-ofrecemos{
     margin: 43px 28px 0px 28px;
@@ -3457,39 +3533,42 @@ footer div p{
 .v-6{
     margin: 20px 60px 300px 50px;
 }
+.espacio-texto{
+    width: 250px;
+}
 .cruz {
     font-weight: 600;
     color: #FE3B1F;
-    margin-left:-25px;
+    margin-left: 10px;
 }
 .cruz-2 {
     font-weight: 600;
     color: #FE3B1F;
-    margin-left: 184px;
+    margin-left: 10px;
 }
 
 .cruz-3 {
     font-weight: 600;
     color: #FE3B1F;
-    margin-left: 105px;
+    margin-left: 10px;
 }
 
 .cruz-4 {
     font-weight: 600;
     color: #FE3B1F;
-    margin-left: 115px;
+    margin-left: 10px;
 }
 
 .cruz-5 {
     font-weight: 600;
     color: #FE3B1F;
-    margin-left: 195px;
+    margin-left: 10px;
 }
 
 .cruz-6 {
     font-weight: 600;
     color: #FE3B1F;
-    margin-left: 150px;
+    margin-left: 10px;
 }
 /* MARCAS */
 
@@ -3499,7 +3578,7 @@ footer div p{
 }
 .marcas{
     margin: 103px 20px 150px 50px;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
 }
 .arreglo-marcas{
     display: flex;
@@ -3604,7 +3683,7 @@ input[type=number]::-webkit-inner-spin-button {
     width: 138px;
     height: 55px;
     background-color: #0D0D0D;
-    border: solid 3px #FE3B1F;
+    border:  3px #FE3B1F;
     border-radius: 20px;
     color: #FE3B1F;
     margin-bottom: 220px;
@@ -3699,12 +3778,21 @@ footer div p{
 
 }
 @media only screen and (max-width:320px){
-
     .body{
         zoom: 100%;
     }
-                /* NAVBAR */
-
+    #logo{
+        margin-left: 30px;
+        width: 154px;
+    }
+    .navbar-collapse{
+        background-color: #0D0D0D;
+        padding-left: 80px;
+        padding-right: 120px;
+        border-radius: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
     .scroll{
         height: 88px;
         background-color: #0D0D0D;
@@ -3713,45 +3801,60 @@ footer div p{
         margin-right: 10px; 
     }
                 /* HERO */
-
-    .hero{
-        background-color: #0D0D0D;
-        margin-top: 87px;
-        padding-left: 70px;
-        padding-right: 60px;
-    }
     .h1h{
         color: #F6F6F6;
         z-index: 100;
         font-family: 'Inter', sans-serif;
         font-weight: 400;
-        font-size: 20px;
+        font-size: 36px;
         line-height: 39.81px;
         margin-left: 14px;
         margin-top: 34px;
         margin-right: 10px;
         margin-bottom: 87px;
     }
+    .hero{
+        font-family: 'Manrope', sans-serif;
+        background-color: #0D0D0D;
+        margin-top: 87px;
+        padding-left: 70px;
+        padding-right: 98px;
+        padding-top: 0px;
+        margin-left: -35px;
+    }
+    .cardhero{
+        background-image: url(/img/rectangulo-degradado.png);
+        background-size: cover;
+        border-radius: 20px;
+        width: 330px;
+        
+    }
+    #linea{
+        margin-top: -565px;
+        margin-left: 270px;
+        width: 25px;
+        height: 570px;
+    }
     .repre{
-        width: 155px;
-        margin-left: 40px;
+        width: 240px;
+        margin-left: 8px;
         margin-top: 47px;
         margin-bottom: 30px ;
     }
-    .sec{
-        border-right: solid 1px #4A4A4A;
+    .prim{
+        border-right:  1px #4A4A4A;
+        margin-bottom: 0px;
     }
-    .cardhero{
-        position: relative;
-        background-image: url(/img/rectangulo-degradado.png);
-        background-size: cover;
+    .sec{
+        border-right:  1px #4A4A4A;
+        margin-bottom: 0px;
     }
     .flecha{
         position: absolute;
-        top: 205px;
-        left: 215px;
-        width: 105px;
-        margin-bottom: 40px;
+        top: 262px;
+        left: 226px;
+        width: 112px;
+        margin-bottom: 30px;
     }
     /* SERVICIOS */
 
@@ -3771,7 +3874,7 @@ footer div p{
     padding-bottom: 35px;
     margin-right: 96px;
     margin-left: 26px;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
 }
 .card-servicio{
     width: 250px;
@@ -3780,7 +3883,7 @@ footer div p{
     border-radius: 20px;
     margin-top: 126px;
     padding-top: 1px;
-    margin-left: 26px;
+    margin-left: 60px;
     margin-right: 26px;
 }
 .h4-card{
@@ -3809,7 +3912,7 @@ footer div p{
     border-radius: 20px;
     margin-top: 20px;
     padding-top: 1px;
-    margin-left: 26px;
+    margin-left: 60px;
     margin-right: 26px;
 }
 .h4-card-2{
@@ -3835,7 +3938,7 @@ footer div p{
     border-radius: 20px;
     margin-top: 20px;
     padding-top: 1px;
-    margin-left: 26px;
+    margin-left: 60px;
     margin-right: 26px;
     
 }
@@ -3865,7 +3968,7 @@ footer div p{
     margin-left: -30px;
     margin-bottom: 178px;
     margin-right: 26px;
-    margin-left: 26px;
+    margin-left: 60px;
 }
 .h4-card-4{
     font-size: 20px;
@@ -3885,7 +3988,7 @@ footer div p{
     
 }
 .linea-2{
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
     margin-left: 26px;
     margin-right: 26px;
 }
@@ -3898,7 +4001,7 @@ footer div p{
     padding-right: 40px;
     margin: 216px 55px 61px 28px;
     color: #ffffff;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
     line-height: 39.61px;
 }
 .p-teams{
@@ -3976,7 +4079,7 @@ footer div p{
 }
 .h4-ofrecemos{
     margin: 300px 28px 0px 28px;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
 }
 .p-ofrecemos{
     margin: 43px 28px 0px 28px;
@@ -4050,7 +4153,7 @@ footer div p{
 }
 .marcas{
     margin: 103px 60px 150px 40px;
-    border-bottom: solid 3px #FE3B1F;
+    border-bottom:  3px #FE3B1F;
 }
 .arreglo-marcas{
     display: flex;
@@ -4161,7 +4264,7 @@ input[type=number]::-webkit-inner-spin-button {
     width: 138px;
     height: 55px;
     background-color: #0D0D0D;
-    border: solid 3px #FE3B1F;
+    border:  3px #FE3B1F;
     border-radius: 20px;
     color: #FE3B1F;
     margin-bottom: 220px;
