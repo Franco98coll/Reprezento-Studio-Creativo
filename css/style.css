@@ -143,11 +143,12 @@ header{
 }
 .card-servicio{
     width: 379px;
-    height: 240px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 126px;
-    padding-top: 1px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     margin-left: 100px;
 }
 .h4-card{
@@ -170,11 +171,12 @@ header{
 }
 .card-servicio-2{
     width: 379px;
-    height: 240px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 126px;
-    padding-top: 1px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     margin-left: -50px;
 }
 .h4-card-2{
@@ -194,11 +196,12 @@ header{
 }
 .card-servicio-3{
     width: 379px;
-    height: 240px;
+    height: 255px;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 20px;
-    padding-top: 1px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     margin-left: 100px;
 }
 .h4-card-3{
@@ -218,11 +221,12 @@ header{
 }
 .card-servicio-4{
     width: 379px;
-    height: 240px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 20px;
-    padding-top: 1px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     margin-left: -50px;
     margin-bottom: 178px;
 }
@@ -453,7 +457,6 @@ header{
     padding: 15px;
     font-weight: bold;
     cursor: pointer;
-    
 }
 .accordion-header p{
     font-family: 'Manrope', sans-serif;
@@ -512,7 +515,6 @@ header{
     margin-top: 10px;
     font-weight: 600;
     color: #FE3B1F;
-    
 }
 .accordion-header.active .cruz-2{
     color: #181818;
@@ -535,7 +537,6 @@ header{
 .accordion-header:hover:not(.active) .cruz-3 {
     color: #ffffff;
 }
-
 
 .v-4{
     margin: 20px 0px 0px 104px;
@@ -1744,8 +1745,8 @@ footer div p{
         border-bottom: solid 3px #FE3B1F;
     }
     .card-servicio{
-        width: 379px;
-        height: 240px;
+        width: auto;
+        height: auto;
         background-color: #181818;
         border-radius: 20px;
         margin-top: 126px;
@@ -1770,32 +1771,32 @@ footer div p{
         font-weight: 600;
     }
     .card-servicio-2{
-        width: 379px;
-        height: 240px;
+        width: auto;
+        height: auto;
         background-color: #181818;
         border-radius: 20px;
         margin-top: 126px;
         padding-top: 1px;
-        margin-left: -30px;
+        margin-left: 0px;
+        margin-right: 60px;
     }
     .h4-card-2{
-        
         line-height: 35px;
         color: #F6F6F6;
         margin-left: 33px;
         margin-top: 29px;
-        margin-right: 91px;
+        margin-right: 200px;
     }
     .p-card-2{
         line-height: 22px;
         color: #F6F6F6;
         margin-left: 33px;
-        margin-right: 29px;
+        margin-right: 34px;
         margin-top: 22px;
     }
     .card-servicio-3{
-        width: 379px;
-        height: 240px;
+        width: auto;
+        height: auto;
         background-color: #181818;
         border-radius: 20px;
         margin-top: 20px;
@@ -1818,14 +1819,15 @@ footer div p{
         margin-top: 62px;
     }
     .card-servicio-4{
-        width: 379px;
-        height: 240px;
+        width: auto;
+        height: auto;
         background-color: #181818;
         border-radius: 20px;
         margin-top: 20px;
         padding-top: 1px;
-        margin-left: -30px;
+        margin-left: 0px;
         margin-bottom: 178px;
+        margin-right: 60px;
     }
     .h4-card-4{
         
@@ -2430,7 +2432,7 @@ footer div p{
 }
 .card-servicio{
     width: 250px;
-    height: 240px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 126px;
@@ -2458,7 +2460,7 @@ footer div p{
 }
 .card-servicio-2{
     width: 250px;
-    height: 240px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     padding-top: 1px;
@@ -2481,7 +2483,7 @@ footer div p{
 }
 .card-servicio-3{
     width: 250px;
-    height: 290px;
+    height: 310px;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 20px;
@@ -2507,7 +2509,7 @@ footer div p{
 }
 .card-servicio-4{
     width: 250px;
-    height: 290px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 20px;
@@ -3024,7 +3026,7 @@ footer div p{
 }
 .card-servicio{
     width: 350px;
-    height: 240px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 126px;
@@ -3052,7 +3054,7 @@ footer div p{
 }
 .card-servicio-2{
     width: 350px;
-    height: 240px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 20px;
@@ -3077,7 +3079,7 @@ footer div p{
 }
 .card-servicio-3{
     width: 350px;
-    height: 240px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 20px;
@@ -3103,7 +3105,7 @@ footer div p{
 }
 .card-servicio-4{
     width: 350px;
-    height: 260px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 20px;
@@ -3589,7 +3591,7 @@ footer div p{
 }
 .card-servicio{
     width: 350px;
-    height: 240px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 126px;
@@ -3617,7 +3619,7 @@ footer div p{
 }
 .card-servicio-2{
     width: 350px;
-    height: 240px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 20px;
@@ -3642,7 +3644,7 @@ footer div p{
 }
 .card-servicio-3{
     width: 350px;
-    height: 240px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 20px;
@@ -3668,7 +3670,7 @@ footer div p{
 }
 .card-servicio-4{
     width: 350px;
-    height: 260px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 20px;
@@ -4153,7 +4155,7 @@ footer div p{
 }
 .card-servicio{
     width: 350px;
-    height: 240px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 126px;
@@ -4181,7 +4183,7 @@ footer div p{
 }
 .card-servicio-2{
     width: 350px;
-    height: 240px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 20px;
@@ -4206,7 +4208,7 @@ footer div p{
 }
 .card-servicio-3{
     width: 350px;
-    height: 240px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 20px;
@@ -4232,7 +4234,7 @@ footer div p{
 }
 .card-servicio-4{
     width: 350px;
-    height: 260px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 20px;
@@ -4722,7 +4724,7 @@ footer div p{
 }
 .card-servicio{
     width: 300px;
-    height: 220px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 126px;
@@ -4749,7 +4751,7 @@ footer div p{
 }
 .card-servicio-2{
     width: 300px;
-    height: 240px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 20px;
@@ -4774,7 +4776,7 @@ footer div p{
 }
 .card-servicio-3{
     width: 300px;
-    height: 220px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 20px;
@@ -4800,7 +4802,7 @@ footer div p{
 }
 .card-servicio-4{
     width: 300px;
-    height: 280px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 20px;
@@ -5279,7 +5281,7 @@ footer div p{
 }
 .card-servicio{
     width: 250px;
-    height: 240px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 126px;
@@ -5308,7 +5310,7 @@ footer div p{
 }
 .card-servicio-2{
     width: 250px;
-    height: 240px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 20px;
@@ -5334,7 +5336,7 @@ footer div p{
 }
 .card-servicio-3{
     width: 250px;
-    height: 240px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 20px;
@@ -5361,7 +5363,7 @@ footer div p{
 }
 .card-servicio-4{
     width: 250px;
-    height: 300px;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     margin-top: 20px;
@@ -5412,7 +5414,7 @@ footer div p{
     line-height: 22px;
 }
 .r-e-c{
-    width: 320px;
+    width: auto;
     background-color: #181818;
     border-radius: 20px;
     color: #ffffff;
@@ -5424,7 +5426,7 @@ footer div p{
     margin-right: 28px;
 }
 .r-e-c-2{
-    width: 320px;
+    width: auto;
     border-radius: 20px;
     color: #ffffff;
     padding-left: 26px;
