@@ -2982,7 +2982,7 @@ footer div p{
         margin-top: -650px;
         margin-left: 320px;
         width: 25px;
-        height: 675px;
+        height: auto;
     }
     .prim{
         border-right:  1px #4A4A4A;
@@ -2997,7 +2997,7 @@ footer div p{
         position: relative;
         background: linear-gradient(119.5deg, #212121 5.45%, rgba(24, 24, 24, 0) 99.86%);
         background-size: cover;
-        height: auto;
+        height: auto !important;
     }
     .flecha{
         position: absolute;
@@ -3547,7 +3547,7 @@ footer div p{
         margin-top: -650px;
         margin-left: 320px;
         width: 25px;
-        height: 675px;
+        height: auto !important;
     }
     .prim{
         border-right:  1px #4A4A4A;
@@ -3562,7 +3562,7 @@ footer div p{
         position: relative;
         background: linear-gradient(119.5deg, #212121 5.45%, rgba(24, 24, 24, 0) 99.86%);
         background-size: cover;
-        height: auto;
+        height: auto !important;
     }
     .flecha{
         position: absolute;
@@ -4111,7 +4111,7 @@ footer div p{
         margin-top: -690px;
         margin-left: 320px;
         width: 25px;
-        height: 675px;
+        height: auto;
     }
     .prim{
         border-right:  1px #4A4A4A;
@@ -4126,7 +4126,7 @@ footer div p{
         position: relative;
         background: linear-gradient(119.5deg, #212121 5.45%, rgba(24, 24, 24, 0) 99.86%);
         background-size: cover;
-        height: auto;
+        height: auto !important;
     }
     .flecha{
         position: absolute;
@@ -4659,6 +4659,7 @@ footer div p{
         background-size: cover;
         border-radius: 20px;
         width: auto;
+        height: auto !important;
     }
     .h1h{
         color: #F6F6F6;
@@ -4686,7 +4687,7 @@ footer div p{
         margin-top: -580px;
         margin-left: 320px;
         width: 25px;
-        height: 600px;
+        height: auto;
     }
     .sec{
         border-right:  1px #4A4A4A;
@@ -5238,7 +5239,7 @@ footer div p{
         position: relative;
         background-image: url(/img/rectangulo-degradado.png);
         background-size: cover;
-        height: 600px;
+        height: auto !important;
     }
     .flecha{
         position: absolute;
@@ -5937,6 +5938,8 @@ footer div p{
     line-height: 22px;
 }
 .r-e-c{
+    width: auto;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     color: #ffffff;
@@ -6314,7 +6317,7 @@ footer div p{
         background-size: cover;
         border-radius: 20px;
         width: 330px;
-        height: auto;
+        height: auto !important;
         
     }
     #linea{
@@ -6500,6 +6503,7 @@ footer div p{
 }
 .r-e-c{
     width: auto;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     color: #ffffff;
