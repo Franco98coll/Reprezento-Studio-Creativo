@@ -77,11 +77,13 @@ header{
     background-size: cover;
     border-radius: 20px;
     height: 678px;
+    justify-content: center;
+    align-items: center;
 }
 
+
 #linea{
-    margin-top: -565px;
-    margin-left: 725px;
+    margin-top: -600px;
     width: 25px;
     height: 530px;
 }
@@ -420,8 +422,7 @@ header{
     padding: 15px;
     font-weight: bold;
     cursor: pointer;
-    flex-direction: row;
-    display: flex;
+    
 }
 .accordion-header p{
     font-family: 'Manrope', sans-serif;
@@ -455,12 +456,12 @@ header{
 .cruz {
     margin-top: 10px;
     color: #FE3B1F;
-    margin-left: -30px;
 }
 .espacio-texto{
-    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-
 
 .accordion-content {
     margin-top: -20px;
@@ -480,7 +481,7 @@ header{
     margin-top: 10px;
     font-weight: 600;
     color: #FE3B1F;
-    margin-left: -20px;
+    
 }
 .accordion-header.active .cruz-2{
     color: #181818;
@@ -496,7 +497,6 @@ header{
     margin-top: 10px;
     font-weight: 600;
     color: #FE3B1F;
-    margin-left: 10px;
 }
 .accordion-header.active .cruz-3{
     color: #181818;
@@ -513,7 +513,6 @@ header{
     margin-top: 10px;
     font-weight: 600;
     color: #FE3B1F;
-    margin-left: 10px;
 }
 .accordion-header.active .cruz-4{
     color: #181818;
@@ -529,7 +528,7 @@ header{
     margin-top: 10px;
     font-weight: 600;
     color: #FE3B1F;
-    margin-left: 10px;
+
 }
 .accordion-header.active .cruz-5{
     color: #181818;
@@ -544,7 +543,6 @@ header{
     margin-top: 10px;
     font-weight: 600;
     color: #FE3B1F;
-    margin-left: 10px;
 }
 .accordion-header.active .cruz-6{
     color: #181818;
@@ -838,11 +836,13 @@ header{
     background-size: cover;
     border-radius: 20px;
     height: 678px;
+    justify-content: center;
+    align-items: center;
 }
 
+
 #linea{
-    margin-top: -565px;
-    margin-left: 1500px;
+    margin-top: -600px;
     width: 25px;
     height: 530px;
 }
@@ -1181,8 +1181,7 @@ header{
     padding: 15px;
     font-weight: bold;
     cursor: pointer;
-    flex-direction: row;
-    display: flex;
+    
 }
 .accordion-header p{
     font-family: 'Manrope', sans-serif;
@@ -1216,10 +1215,11 @@ header{
 .cruz {
     margin-top: 10px;
     color: #FE3B1F;
-    margin-left: -30px;
 }
 .espacio-texto{
-    width: 780px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between center;
 }
 
 
@@ -1241,7 +1241,6 @@ header{
     margin-top: 10px;
     font-weight: 600;
     color: #FE3B1F;
-    margin-left: -20px;
 }
 .accordion-header.active .cruz-2{
     color: #181818;
@@ -1257,7 +1256,6 @@ header{
     margin-top: 10px;
     font-weight: 600;
     color: #FE3B1F;
-    margin-left: 10px;
 }
 .accordion-header.active .cruz-3{
     color: #181818;
@@ -1274,7 +1272,6 @@ header{
     margin-top: 10px;
     font-weight: 600;
     color: #FE3B1F;
-    margin-left: 10px;
 }
 .accordion-header.active .cruz-4{
     color: #181818;
@@ -1290,7 +1287,6 @@ header{
     margin-top: 10px;
     font-weight: 600;
     color: #FE3B1F;
-    margin-left: 10px;
 }
 .accordion-header.active .cruz-5{
     color: #181818;
@@ -1305,7 +1301,6 @@ header{
     margin-top: 10px;
     font-weight: 600;
     color: #FE3B1F;
-    margin-left: 10px;
 }
 .accordion-header.active .cruz-6{
     color: #181818;
@@ -1522,9 +1517,7 @@ footer div p{
 }
 @media only screen and (max-width:1440px){
     
-    .espacio-texto{
-        width: 400px;
-    }
+    
     /* TEAMS */
 
 .teams{
@@ -1630,11 +1623,6 @@ footer div p{
         padding-right: 98px;
         padding-top: 50px;
     }
-    .cardhero{
-        background-image: url(/img/rectangulo-degradado.png);
-        background-size: cover;
-        border-radius: 20px;
-    }
     .prim{
         border-right:  1px #4A4A4A;
     }
@@ -1663,11 +1651,20 @@ footer div p{
         margin-left: 60px;
         margin-top: 100px;
     }
+    .cardhero{
+        background: linear-gradient(119.5deg, #212121 5.45%, rgba(24, 24, 24, 0) 99.86%);
+        background-size: cover;
+        border-radius: 20px;
+        height: 678px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
     #linea{
-        margin-top: -525px;
-        margin-left: 545px;
+        margin-top: -550px;
         width: 25px;
-        height: 500px;
+        height: 530px;
     }
     .flecha{
         width: 105px;
@@ -1969,8 +1966,6 @@ footer div p{
         padding: 15px;
         font-weight: bold;
         cursor: pointer;
-        flex-direction: row;
-        display: flex;
     }
     .accordion-header p{
         margin-top: 10px;
@@ -1999,13 +1994,8 @@ footer div p{
     .cruz {
         margin-top: 10px;
         color: #FE3B1F;
-        margin-left: -100px;
+        
     }
-    .espacio-texto{
-        width: 350px;
-    }
-    
-    
     .accordion-content {
         margin-top: -20px;
         border-radius: 0px 0px 20px 20px;
@@ -2024,7 +2014,7 @@ footer div p{
         margin-top: 10px;
         font-weight: 600;
         color: #FE3B1F;
-        margin-left: 10px;
+        
     }
     .accordion-header.active .cruz-2{
         color: #181818;
@@ -2040,7 +2030,7 @@ footer div p{
         margin-top: 10px;
         font-weight: 600;
         color: #FE3B1F;
-        margin-left: 10px;
+        
     }
     .accordion-header.active .cruz-3{
         color: #181818;
@@ -2057,7 +2047,7 @@ footer div p{
         margin-top: 10px;
         font-weight: 600;
         color: #FE3B1F;
-        margin-left: 10px;
+        
     }
     .accordion-header.active .cruz-4{
         color: #181818;
@@ -2073,7 +2063,7 @@ footer div p{
         margin-top: 10px;
         font-weight: 600;
         color: #FE3B1F;
-        margin-left: 10px;
+        
     }
     .accordion-header.active .cruz-5{
         color: #181818;
@@ -2088,7 +2078,7 @@ footer div p{
         margin-top: 10px;
         font-weight: 600;
         color: #FE3B1F;
-        margin-left: 10px;
+        
     }
     .accordion-header.active .cruz-6{
         color: #181818;
@@ -2321,13 +2311,6 @@ footer div p{
         margin-right: 30px;
         margin-bottom: 87px;
     }
-    .cardhero{
-        background-image: url(/img/rectangulo-degradado.png);
-        background-size: cover;
-        border-radius: 20px;
-        height: 430px;
-    }
-    
     .repre{
         width: 255px;
         margin-left: 40px;
@@ -2339,8 +2322,7 @@ footer div p{
         margin-bottom: 70px;
     }
     #linea{
-        margin-top: -415px;
-        margin-left: 400px;
+        margin-top: -610px;
         width: 25px;
         height: 300px;
     }
@@ -2348,6 +2330,9 @@ footer div p{
         position: relative;
         background-image: url(/img/rectangulo-degradado.png);
         background-size: cover;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
     }
     .flecha{
         position: absolute;
@@ -2627,6 +2612,7 @@ footer div p{
 .accordion {
     background-color: #181818;
     max-width: 800px;
+    width: 300px;
     margin: 100px 60px 0px 50px;
     border-radius: 20px;
 }
@@ -2648,40 +2634,31 @@ footer div p{
 .v-6{
     margin: 20px 60px 300px 0px;
 }
-.espacio-texto{
-    width: 600px;
-}
-.cruz{
-    margin-left: -390px;
-}
+
+
 .cruz-2 {
     font-weight: 600;
     color: #FE3B1F;
-    margin-left: 10px;
 }
 
 .cruz-3 {
     font-weight: 600;
     color: #FE3B1F;
-    margin-left: 10px;
 }
 
 .cruz-4 {
     font-weight: 600;
     color: #FE3B1F;
-    margin-left: 10px;
 }
 
 .cruz-5 {
     font-weight: 600;
     color: #FE3B1F;
-    margin-left: 10px;
 }
 
 .cruz-6 {
     font-weight: 600;
     color: #FE3B1F;
-    margin-left: 10px;
 }
 /* MARCAS */
 
@@ -3239,12 +3216,8 @@ footer div p{
 .v-6{
     margin: 20px 60px 300px 50px;
 }
-.cruz{
-    margin-left: 10px;
-}
-.espacio-texto{
-    width: 330px;
-}
+
+
 /* MARCAS */
 
 .clientes{
@@ -3801,27 +3774,7 @@ footer div p{
 .v-6{
     margin: 20px 60px 300px 50px;
 }
-.espacio-texto{
-    width: 305px;
-}
-.cruz{
-    margin-left: 10px;
-}
-.cruz-2{
-    margin-left: 10px;
-}
-.cruz-3{
-    margin-left: 10px;
-}
-.cruz-4{
-    margin-left: 10px;
-}
-.cruz-5{
-    margin-left: 10px;
-}
-.cruz-6{
-    margin-left: 10px;
-}
+
 /* MARCAS */
 
 .clientes{
@@ -4345,43 +4298,7 @@ footer div p{
 .v-6{
     margin: 20px 60px 300px 50px;
 }
-.espacio-texto{
-    width: 250px;
-}
-.cruz {
-    font-weight: 600;
-    color: #FE3B1F;
-    margin-left: 10px;
-}
-.cruz-2 {
-    font-weight: 600;
-    color: #FE3B1F;
-    margin-left: 10px;
-}
 
-.cruz-3 {
-    font-weight: 600;
-    color: #FE3B1F;
-    margin-left: 10px;
-}
-
-.cruz-4 {
-    font-weight: 600;
-    color: #FE3B1F;
-    margin-left: 10px;
-}
-
-.cruz-5 {
-    font-weight: 600;
-    color: #FE3B1F;
-    margin-left: 10px;
-}
-
-.cruz-6 {
-    font-weight: 600;
-    color: #FE3B1F;
-    margin-left: 10px;
-}
 /* MARCAS */
 
 .clientes{
@@ -4926,40 +4843,7 @@ footer div p{
 .v-6{
     margin: 20px 60px 300px 50px;
 }
-.cruz {
-    font-weight: 600;
-    color: #FE3B1F;
-    margin-left: -95px;
-}
-.cruz-2 {
-    font-weight: 600;
-    color: #FE3B1F;
-    margin-left: 140px;
-}
 
-.cruz-3 {
-    font-weight: 600;
-    color: #FE3B1F;
-    margin-left: 70px;
-}
-
-.cruz-4 {
-    font-weight: 600;
-    color: #FE3B1F;
-    margin-left: 80px;
-}
-
-.cruz-5 {
-    font-weight: 600;
-    color: #FE3B1F;
-    margin-left: 150px;
-}
-
-.cruz-6 {
-    font-weight: 600;
-    color: #FE3B1F;
-    margin-left: 110px;
-}
 .accordion-header p{
     font-size: 13px;
 }
