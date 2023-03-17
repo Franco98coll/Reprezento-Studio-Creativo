@@ -1219,7 +1219,7 @@ header{
 .espacio-texto{
     display: flex;
     flex-direction: row;
-    justify-content: space-between center;
+    justify-content: space-between;
 }
 
 
@@ -1556,6 +1556,11 @@ footer div p{
     flex-direction: row;
     margin-left: 273px;
     margin-top: -230px;
+}
+.espacio-texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 }
@@ -1990,7 +1995,11 @@ footer div p{
     .accordion-header.active .cruz{
         color: #181818;
     }
-    
+    .espacio-texto{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
     .cruz {
         margin-top: 10px;
         color: #FE3B1F;
@@ -2634,6 +2643,11 @@ footer div p{
 .v-6{
     margin: 20px 60px 300px 0px;
 }
+.espacio-texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 
 .cruz-2 {
@@ -3216,7 +3230,11 @@ footer div p{
 .v-6{
     margin: 20px 60px 300px 50px;
 }
-
+.espacio-texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 /* MARCAS */
 
@@ -3774,6 +3792,11 @@ footer div p{
 .v-6{
     margin: 20px 60px 300px 50px;
 }
+.espacio-texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 /* MARCAS */
 
@@ -4297,6 +4320,11 @@ footer div p{
 }
 .v-6{
     margin: 20px 60px 300px 50px;
+}
+.espacio-texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /* MARCAS */
@@ -4843,7 +4871,11 @@ footer div p{
 .v-6{
     margin: 20px 60px 300px 50px;
 }
-
+.espacio-texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .accordion-header p{
     font-size: 13px;
 }
