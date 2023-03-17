@@ -758,7 +758,7 @@ footer div{
 footer div p{
     margin-top: 38px;
 }
-@media only screen and (max-width: 2560px){
+@media only screen and (min-width: 2560px){
     
 body{
     font-family: 'Manrope', sans-serif;
