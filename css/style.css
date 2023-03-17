@@ -299,10 +299,28 @@ header{
     border-bottom: solid 3px #FE3B1F;
     line-height: 39.61px;
 }
+.nuestro-team-2{
+    font-family: 'Manrope', sans-serif;
+    width: 300px;
+    padding-right: 40px;
+    margin: 16px 0px 61px 104px;
+    color: #ffffff;
+    line-height: 39.61px;
+}
+.acercar{
+    margin-top: -240px !important;
+}
 .nuestro-team h4{
     font-size: 40px;
 }
 .p-teams{
+    width: 300px;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 61px 0px 61px 104px;
+    line-height: 22px;
+}
+.p-teams-2{
     width: 300px;
     font-size: 16px;
     color: #ffffff;
@@ -322,10 +340,23 @@ header{
     padding-bottom: 20px;
     margin-left: 104px;
 }
+.r-e-c-2{
+    font-size: 24px;
+    width: 382px;
+    height: 227px;
+    border-radius: 20px;
+    color: #ffffff;
+    padding-left: 26px;
+    padding-right: 28px;
+    padding-top: 32px;
+    padding-bottom: 20px;
+    margin-left: 104px;
+}
 .teams-alineado{
     display: flex;
     flex-direction: row;
 }
+
 .alineado{
     margin-top: 216px;
     margin-left: 250px;
@@ -1081,6 +1112,18 @@ header{
     padding-bottom: 20px;
     margin-left: 234px;
 }
+.r-e-c-2{
+    font-size: 24px;
+    width: 382px;
+    height: 227px;
+    border-radius: 20px;
+    color: #ffffff;
+    padding-left: 26px;
+    padding-right: 28px;
+    padding-top: 32px;
+    padding-bottom: 20px;
+    margin-left: 234px;
+}
 .teams-alineado{
     display: flex;
     flex-direction: row;
@@ -1219,7 +1262,7 @@ header{
 .espacio-texto{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between center;
 }
 
 
@@ -1853,11 +1896,22 @@ footer div p{
         border-bottom: solid 3px #FE3B1F;
         line-height: 39.61px;
     }
+    .nuestro-team-2{
+        padding-right: 40px;
+        margin: 216px 0px 61px 70px;
+        color: #ffffff;
+        line-height: 39.61px;
+    }
     .nuestro-team h4{
         font-size: 40px;
         
     }
     .p-teams{
+        color: #ffffff;
+        margin: 61px 0px 61px 70px;
+        line-height: 22px;
+    }
+    .p-teams-2{
         color: #ffffff;
         margin: 61px 0px 61px 70px;
         line-height: 22px;
@@ -1873,6 +1927,16 @@ footer div p{
         padding-bottom: 32px;
         margin-left: 70px;
     }
+    .r-e-c-2{
+        width: 250px;
+        border-radius: 20px;
+        color: #ffffff;
+        padding-left: 26px;
+        padding-right: 28px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        margin-left: 70px;
+    }
     .teams-alineado{
         display: flex;
         flex-direction: row;
@@ -1880,12 +1944,6 @@ footer div p{
     .alineado{
         margin-top: 216px;
         margin-left: 80px;
-        display: flex;
-        width: 800px;
-    }
-    .alineado-2{
-        margin-top: 276px;
-        margin-left: 155px;
         display: flex;
         width: 800px;
     }
@@ -1929,7 +1987,6 @@ footer div p{
     }
     .teams-alineado-2{
         margin-top: -300px;
-        margin-left: 300px;
         margin-bottom: 200px;
     }
     
@@ -2545,6 +2602,9 @@ footer div p{
     margin-left: 28px;
     margin-right: 28px;
 }
+.acercar{
+    margin-top: -480px !important;
+}
 .teams-alineado{
     display: flex;
     flex-direction: column;
@@ -3138,6 +3198,9 @@ footer div p{
     margin-left: 28px;
     margin-right: 28px;
 }
+.acercar{
+    margin-top: -500px !important;
+}
 .teams-alineado{
     display: flex;
     flex-direction: column;
@@ -3700,6 +3763,9 @@ footer div p{
     margin-left: 28px;
     margin-right: 28px;
 }
+.acercar{
+    margin-top: -500px !important;
+}
 .teams-alineado{
     display: flex;
     flex-direction: column;
@@ -4228,6 +4294,19 @@ footer div p{
     padding-bottom: 32px;
     margin-left: 28px;
     margin-right: 28px;
+}
+.r-e-c-2{
+    border-radius: 20px;
+    color: #ffffff;
+    padding-left: 26px;
+    padding-right: 28px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+.acercar{
+    margin-top: -500px !important;
 }
 .teams-alineado{
     display: flex;
@@ -4762,6 +4841,7 @@ footer div p{
     border-bottom: solid 3px #FE3B1F;
     line-height: 39.61px;
 }
+
 .p-teams{
     color: #ffffff;
     margin: 61px 28px 61px 28px;
@@ -4779,6 +4859,20 @@ footer div p{
     margin-left: 28px;
     margin-right: 28px;
 }
+.r-e-c-2{
+    width: 320px;
+    border-radius: 20px;
+    color: #ffffff;
+    padding-left: 26px;
+    padding-right: 28px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+.acercar{
+    margin-top: -500px !important;
+}
 .teams-alineado{
     display: flex;
     flex-direction: column;
@@ -4790,13 +4884,7 @@ footer div p{
     flex-direction: column;
     max-width: 250px;
 }
-.alineado-2{
-    margin-top: 216px;
-    margin-left: 55px;
-    display: flex;
-    flex-direction: column;
-    max-width: 250px;
-}
+
 .carta{
     max-width: 270px;
     border-radius: 20px;
