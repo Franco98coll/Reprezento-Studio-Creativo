@@ -76,8 +76,8 @@ header{
     background: linear-gradient(119.5deg, #212121 5.45%, rgba(24, 24, 24, 0) 99.86%);
     background-size: cover;
     border-radius: 20px;
-    height: 678px;
     justify-content: center;
+    height: auto;
     align-items: center;
 }
 
@@ -866,7 +866,7 @@ header{
     background: linear-gradient(119.5deg, #212121 5.45%, rgba(24, 24, 24, 0) 99.86%);
     background-size: cover;
     border-radius: 20px;
-    height: 678px;
+    height: auto;
     justify-content: center;
     align-items: center;
 }
@@ -1703,7 +1703,7 @@ footer div p{
         background: linear-gradient(119.5deg, #212121 5.45%, rgba(24, 24, 24, 0) 99.86%);
         background-size: cover;
         border-radius: 20px;
-        height: 678px;
+        height: auto;
         justify-content: center;
         align-items: center;
     }
@@ -2394,11 +2394,11 @@ footer div p{
     }
     .cardhero{
         position: relative;
-        background-image: url(/img/rectangulo-degradado.png);
+        background: linear-gradient(119.5deg, #212121 5.45%, rgba(24, 24, 24, 0) 99.86%);
         background-size: cover;
         align-items: center;
         justify-content: center;
-        height: 500px;
+        height: auto;
     }
     .flecha{
         position: absolute;
@@ -2990,9 +2990,9 @@ footer div p{
     }
     .cardhero{
         position: relative;
-        background-image: url(/img/rectangulo-degradado.png);
+        background: linear-gradient(119.5deg, #212121 5.45%, rgba(24, 24, 24, 0) 99.86%);
         background-size: cover;
-        height: 680px;
+        height: auto;
     }
     .flecha{
         position: absolute;
@@ -3555,9 +3555,9 @@ footer div p{
     }
     .cardhero{
         position: relative;
-        background-image: url(/img/rectangulo-degradado.png);
+        background: linear-gradient(119.5deg, #212121 5.45%, rgba(24, 24, 24, 0) 99.86%);
         background-size: cover;
-        height: 675px;
+        height: auto;
     }
     .flecha{
         position: absolute;
@@ -4074,7 +4074,7 @@ footer div p{
 @media only screen and (max-width: 393px){
     
     .body{
-        zoom: 100%;
+        zoom: 90%;
     }
                 /* HERO */
 
@@ -4119,9 +4119,9 @@ footer div p{
     }
     .cardhero{
         position: relative;
-        background-image: url(/img/rectangulo-degradado.png);
+        background: linear-gradient(119.5deg, #212121 5.45%, rgba(24, 24, 24, 0) 99.86%);
         background-size: cover;
-        height: 675px;
+        height: auto;
     }
     .flecha{
         position: absolute;
@@ -4650,10 +4650,10 @@ footer div p{
         margin-left: -35px;
     }
     .cardhero{
-        background-image: url(/img/rectangulo-degradado.png);
+        background: linear-gradient(119.5deg, #212121 5.45%, rgba(24, 24, 24, 0) 99.86%);
         background-size: cover;
         border-radius: 20px;
-        width: 400px;
+        width: auto;
     }
     .h1h{
         color: #F6F6F6;
@@ -5223,11 +5223,11 @@ footer div p{
         margin-left: -35px;
     }
     .cardhero{
-        background-image: url(/img/rectangulo-degradado.png);
+        background: linear-gradient(119.5deg, #212121 5.45%, rgba(24, 24, 24, 0) 99.86%);
         background-size: cover;
         border-radius: 20px;
         width: 330px;
-        height: 530px;
+        height: auto;
         
     }
     #linea{
