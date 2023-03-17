@@ -3507,7 +3507,10 @@ footer div p{
 }
 }
 
-@media only screen and (max-width:414px){
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 3){
 
     .body{
         zoom: 100%;
@@ -4071,6 +4074,7 @@ footer div p{
     margin-top: 38px;
 }
 }
+
 @media only screen and (max-width:375px){
     
     .body{
