@@ -813,13 +813,11 @@ input[type=number]::-webkit-inner-spin-button {
     color: #ffffff;
 }
 .iconos a:hover{
-    color: #111111;
+    color: #FE3B1F;
 }
 .fondo-icon{
-    margin-left: 20px;
-    padding: 10px;
-    border-radius: 100px;
-    background-color: #FE3B1F;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 footer{
     font-family: 'Manrope', sans-serif;
