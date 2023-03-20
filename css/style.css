@@ -3232,6 +3232,7 @@ footer div p{
     line-height: 22px;
 }
 .r-e-c{
+    height: auto;
     width: auto;
     background-color: #181818;
     border-radius: 20px;
@@ -3810,6 +3811,7 @@ footer div p{
     line-height: 22px;
 }
 .r-e-c{
+    height: auto;
     width: auto;
     background-color: #181818;
     border-radius: 20px;
@@ -4387,6 +4389,8 @@ footer div p{
     line-height: 22px;
 }
 .r-e-c{
+    width: auto;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     color: #ffffff;
@@ -4932,6 +4936,8 @@ footer div p{
     line-height: 22px;
 }
 .r-e-c{
+    height: auto;
+    width: auto;
     background-color: #181818;
     border-radius: 20px;
     color: #ffffff;
@@ -5486,6 +5492,8 @@ footer div p{
     line-height: 22px;
 }
 .r-e-c{
+    width: auto;
+    height: auto;
     background-color: #181818;
     border-radius: 20px;
     color: #ffffff;
