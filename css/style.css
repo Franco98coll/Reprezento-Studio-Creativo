@@ -1711,6 +1711,8 @@ footer div p{
         justify-content: center;
         align-items: center;
     }
+    
+    
     #linea{
         margin-top: -550px;
         width: 25px;
@@ -1752,6 +1754,8 @@ footer div p{
         border-radius: 20px;
         margin-top: 126px;
         padding-top: 1px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .h4-card{
         
@@ -1779,14 +1783,14 @@ footer div p{
         margin-top: 126px;
         padding-top: 1px;
         margin-left: 0px;
-        margin-right: 60px;
+        margin-right: 30px;
     }
     .h4-card-2{
         line-height: 35px;
         color: #F6F6F6;
         margin-left: 33px;
         margin-top: 29px;
-        margin-right: 200px;
+        margin-right: 100px;
     }
     .p-card-2{
         line-height: 22px;
@@ -1802,6 +1806,8 @@ footer div p{
         border-radius: 20px;
         margin-top: 20px;
         padding-top: 1px;
+        margin-left: 20px;
+        margin-right: 20px;
         
     }
     .h4-card-3{
@@ -1828,7 +1834,7 @@ footer div p{
         padding-top: 1px;
         margin-left: 0px;
         margin-bottom: 178px;
-        margin-right: 60px;
+        margin-right: 20px;
     }
     .h4-card-4{
         
