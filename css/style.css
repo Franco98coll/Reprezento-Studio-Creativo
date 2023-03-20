@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+    transition: 2s ease;
+}
 body{
     font-family: 'Manrope', sans-serif;
     background-color: #0D0D0D ;
@@ -80,7 +84,6 @@ header{
     height: auto;
     align-items: center;
 }
-
 
 #linea{
     margin-top: -600px;
@@ -669,6 +672,8 @@ header{
     color: #ffffff;
 }
 input{
+    margin-bottom: 10px;
+    margin-top: 10px;
     padding-left: 20px;
     color: #ffffff;
     width: 600px;
@@ -682,6 +687,8 @@ input{
     padding-left: 20px;
 }
 label{
+    margin-bottom: 10px;
+    margin-top: 10px;
     color: #ffffff;
     font-size: 20px;
     margin-left: 10px;
@@ -789,18 +796,30 @@ input[type=number]::-webkit-inner-spin-button {
     margin: 0px 0px 19px 110px;
 }
 .iconos{
+    display: flex;
+    flex-direction: row;
     margin-left: 131px;
 }
 .bi-facebook{
-    margin-left: 42px;
-    margin-right: 42px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.bi-linkedin{
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .iconos a{
     text-decoration: none;
     color: #ffffff;
 }
 .iconos a:hover{
-    color: #FE3B1F;
+    color: #111111;
+}
+.fondo-icon{
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: #FE3B1F;
 }
 footer{
     font-family: 'Manrope', sans-serif;
