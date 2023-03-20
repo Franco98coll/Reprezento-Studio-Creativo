@@ -435,7 +435,6 @@ header{
     color: #ffffff;
 }
 .h4-ofrecemos{
-    
     color: #ffffff;
     margin: 300px 150px 0px 104px;
     border-bottom: solid  3px #FE3B1F;
@@ -448,6 +447,7 @@ header{
     margin: 43px 0px 0px 104px;
 }
 .accordion {
+    text-align: center;
     font-family: 'Manrope', sans-serif;
     background-color: #181818;
     max-width: 800px;
@@ -462,6 +462,7 @@ header{
 }
 
 .accordion-header {
+    text-align: center;
     font-family: 'Manrope', sans-serif;
     border-radius: 20px;
     background-color: #181818;
@@ -471,6 +472,7 @@ header{
     cursor: pointer;
 }
 .accordion-header p{
+    text-align: center;
     font-family: 'Manrope', sans-serif;
     margin-top: 10px;
     font-size: 20px;
@@ -500,10 +502,11 @@ header{
 }
 
 .cruz {
-    margin-top: 10px;
     color: #FE3B1F;
 }
 .espacio-texto{
+    align-items: center;
+    text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -2990,10 +2993,10 @@ footer div p{
     .h1h{
         color: #F6F6F6;
         z-index: 100;
-        font-family: 'Inter', sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-weight: 400;
         font-size: 36px;
-        line-height: 39.81px;
+        line-height: 42.81px;
         margin-left: 24px;
         margin-top: 34px;
         margin-right: 70px;
@@ -3252,7 +3255,7 @@ footer div p{
     flex-direction: column;
 }
 .alineado{
-    margin-top: 216px;
+    margin-top: 116px;
     margin-left: 90px;
     display: flex;
     flex-direction: column;
@@ -3308,6 +3311,9 @@ footer div p{
 /* OFRECEMOS */
 
 .ofrecemos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #0D0D0D;
     color: #ffffff;
 }
@@ -3321,23 +3327,23 @@ footer div p{
 .accordion {
     background-color: #181818;
     max-width: 800px;
-    margin: 100px 60px 0px 50px;
+    margin: 100px 60px 0px 100px;
     border-radius: 20px;
 }
 .v-2{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px 100px;
 }
 .v-3{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px 100px;
 }
 .v-4{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px 100px;
 }
 .v-5{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px 100px;
 }
 .v-6{
-    margin: 20px 60px 300px 50px;
+    margin: 20px 60px 300px 100px;
 }
 .espacio-texto{
     display: flex;
@@ -3569,10 +3575,10 @@ footer div p{
     .h1h{
         color: #F6F6F6;
         z-index: 100;
-        font-family: 'Inter', sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-weight: 400;
         font-size: 36px;
-        line-height: 39.81px;
+        line-height: 42.81px;
         margin-left: 24px;
         margin-top: 34px;
         margin-right: 70px;
@@ -3634,9 +3640,8 @@ footer div p{
     font-family: 'Manrope', sans-serif;
     font-weight: 500;
     font-size: 30px;
-    line-height: 33.61px;
+    line-height: 43.61px;
     margin-top: 152px;
-    
     color: #F6F6F6;
 }
 .linea{
@@ -3664,7 +3669,7 @@ footer div p{
     margin-right: 200px;
 }
 .p-card{
-    line-height: 22px;
+    line-height: 27px;
     color: #F6F6F6;
     margin-left: 33px;
     margin-right: 34px;
@@ -3777,7 +3782,7 @@ footer div p{
     margin-left: 26px;
     margin-right: 26px;
     margin-bottom: 180px;
-    line-height: 40px;
+    line-height: 43px;
     font-weight: 400;
     font-size: 40px;
     color: #ffffff;
@@ -3824,14 +3829,14 @@ footer div p{
     margin-right: 28px;
 }
 .acercar{
-    margin-top: -500px !important;
+    margin-top: -550px !important;
 }
 .teams-alineado{
     display: flex;
     flex-direction: column;
 }
 .alineado{
-    margin-top: 216px;
+    margin-top: 116px;
     margin-left: 90px;
     display: flex;
     flex-direction: column;
@@ -3900,23 +3905,23 @@ footer div p{
 .accordion {
     background-color: #181818;
     max-width: 800px;
-    margin: 100px 60px 0px 50px;
+    margin: 100px 60px 0px 100px;
     border-radius: 20px;
 }
 .v-2{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px 100px;
 }
 .v-3{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px 100px;
 }
 .v-4{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px  100px;
 }
 .v-5{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px  100px;
 }
 .v-6{
-    margin: 20px 60px 300px 50px;
+    margin: 20px 60px 300px 100px;
 }
 .espacio-texto{
     display: flex;
@@ -4147,10 +4152,10 @@ footer div p{
     .h1h{
         color: #F6F6F6;
         z-index: 100;
-        font-family: 'Inter', sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-weight: 400;
         font-size: 36px;
-        line-height: 39.81px;
+        line-height: 42.81px;
         margin-left: 24px;
         margin-top: 34px;
         margin-right: 70px;
@@ -4409,7 +4414,7 @@ footer div p{
     flex-direction: column;
 }
 .alineado{
-    margin-top: 216px;
+    margin-top: 86px;
     margin-left: 90px;
     display: flex;
     flex-direction: column;
@@ -4478,23 +4483,23 @@ footer div p{
 .accordion {
     background-color: #181818;
     max-width: 800px;
-    margin: 100px 60px 0px 50px;
+    margin: 100px 60px 0px 90px;
     border-radius: 20px;
 }
 .v-2{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px 90px;
 }
 .v-3{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px 90px;
 }
 .v-4{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px 90px;
 }
 .v-5{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px 90px;
 }
 .v-6{
-    margin: 20px 60px 300px 50px;
+    margin: 20px 60px 300px 90px;
 }
 .espacio-texto{
     display: flex;
@@ -4733,10 +4738,10 @@ footer div p{
     .h1h{
         color: #F6F6F6;
         z-index: 100;
-        font-family: 'Inter', sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-weight: 400;
         font-size: 36px;
-        line-height: 39.81px;
+        line-height: 42.81px;
         margin-left: 24px;
         margin-top: 34px;
         margin-right: 70px;
@@ -4966,7 +4971,7 @@ footer div p{
     flex-direction: column;
 }
 .alineado{
-    margin-top: 216px;
+    margin-top: 70px;
     margin-left: 80px;
     display: flex;
     flex-direction: column;
@@ -5033,30 +5038,32 @@ footer div p{
     margin: 43px 28px 0px 28px;
 }
 .accordion {
+    text-align: center;
     background-color: #181818;
     max-width: 800px;
-    margin: 100px 60px 0px 50px;
+    margin: 100px 60px 0px 75px;
     border-radius: 20px;
 }
 .v-2{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px 75px;
 }
 .v-3{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px 75px;
 }
 .v-4{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px 75px;
 }
 .v-5{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px 75px;
 }
 .v-6{
-    margin: 20px 60px 300px 50px;
+    margin: 20px 60px 300px 75px;
 }
 .espacio-texto{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 /* MARCAS */
@@ -5289,10 +5296,10 @@ footer div p{
     .h1h{
         color: #F6F6F6;
         z-index: 100;
-        font-family: 'Inter', sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-weight: 400;
         font-size: 36px;
-        line-height: 39.81px;
+        line-height: 42.81px;
         margin-left: 24px;
         margin-top: 34px;
         margin-right: 70px;
@@ -5522,7 +5529,7 @@ footer div p{
     flex-direction: column;
 }
 .alineado{
-    margin-top: 216px;
+    margin-top: 76px;
     margin-left: 80px;
     display: flex;
     flex-direction: column;
@@ -5591,23 +5598,23 @@ footer div p{
 .accordion {
     background-color: #181818;
     max-width: 800px;
-    margin: 100px 60px 0px 50px;
+    margin: 100px 60px 0px 70px;
     border-radius: 20px;
 }
 .v-2{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px 70px;
 }
 .v-3{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px 70px;
 }
 .v-4{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px 70px;
 }
 .v-5{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px 70px;
 }
 .v-6{
-    margin: 20px 60px 300px 50px;
+    margin: 20px 60px 300px 70px;
 }
 .espacio-texto{
     display: flex;
@@ -5832,22 +5839,23 @@ footer div p{
         margin-top: 87px;
         padding-left: 70px;
         padding-right: 60px;
-        margin-left: -35px;
+        margin-left: 0px;
     }
     .cardhero{
         background: linear-gradient(119.5deg, #212121 5.45%, rgba(24, 24, 24, 0) 99.86%);
         background-size: cover;
         border-radius: 20px;
+        margin-left: 50px;
         width: auto;
         height: auto !important;
     }
     .h1h{
         color: #F6F6F6;
         z-index: 100;
-        font-family: 'Inter', sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-weight: 400;
         font-size: 36px;
-        line-height: 39.81px;
+        line-height: 42.81px;
         margin-left: 24px;
         margin-top: 34px;
         margin-right: 70px;
@@ -5883,8 +5891,8 @@ footer div p{
     .flecha{
         z-index: 1000;
         position: absolute;
-        top: 325px;
-        left: 280px;
+        top: 355px;
+        left: 200px;
         width: 105px;
         margin-bottom: 40px;
         animation: girar 2s ease-in-out;
@@ -6070,15 +6078,15 @@ footer div p{
     margin-right: 28px;
 }
 .acercar{
-    margin-top: -650px !important;
+    margin-top: -500px !important;
 }
 .teams-alineado{
     display: flex;
     flex-direction: column;
 }
 .alineado{
-    margin-top: 216px;
-    margin-left: 80px;
+    margin-top: 76px;
+    margin-left: 70px;
     display: flex;
     flex-direction: column;
     max-width: 250px;
@@ -6146,23 +6154,23 @@ footer div p{
 .accordion {
     background-color: #181818;
     max-width: 800px;
-    margin: 100px 60px 0px 50px;
+    margin: 100px 60px 0px 70px;
     border-radius: 20px;
 }
 .v-2{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px 70px;
 }
 .v-3{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px 70px;
 }
 .v-4{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px 70px;
 }
 .v-5{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px 70px;
 }
 .v-6{
-    margin: 20px 60px 300px 50px;
+    margin: 20px 60px 300px 70px;
 }
 .espacio-texto{
     display: flex;
@@ -6403,10 +6411,10 @@ footer div p{
     .h1h{
         color: #F6F6F6;
         z-index: 100;
-        font-family: 'Inter', sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-weight: 400;
         font-size: 36px;
-        line-height: 39.81px;
+        line-height: 42.81px;
         margin-left: 14px;
         margin-top: 34px;
         margin-right: 10px;
@@ -6452,7 +6460,7 @@ footer div p{
     .flecha{
         z-index: 1000;
         position: absolute;
-        top: 262px;
+        top: 282px;
         left: 226px;
         width: 112px;
         margin-bottom: 30px;
@@ -6653,7 +6661,7 @@ footer div p{
     flex-direction: column;
 }
 .alineado{
-    margin-top: 216px;
+    margin-top: 76px;
     margin-left: 55px;
     display: flex;
     flex-direction: column;
@@ -6716,23 +6724,23 @@ footer div p{
 .accordion {
     background-color: #181818;
     max-width: 800px;
-    margin: 100px 60px 0px 50px;
+    margin: 100px 60px 0px  40px;
     border-radius: 20px;
 }
 .v-2{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px  40px;
 }
 .v-3{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px 40px;
 }
 .v-4{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px  40px;
 }
 .v-5{
-    margin: 20px 60px 0px 50px;
+    margin: 20px 60px 0px  40px;
 }
 .v-6{
-    margin: 20px 60px 300px 50px;
+    margin: 20px 60px 300px  40px;
 }
 .espacio-texto{
     display: flex;
