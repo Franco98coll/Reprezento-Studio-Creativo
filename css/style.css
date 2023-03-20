@@ -3232,6 +3232,7 @@ footer div p{
     line-height: 22px;
 }
 .r-e-c{
+    width: auto;
     background-color: #181818;
     border-radius: 20px;
     color: #ffffff;
