@@ -3028,6 +3028,7 @@ footer div p{
         height: auto !important;
     }
     .flecha{
+        z-index: 1000;
         position: absolute;
         top: 325px;
         left: 280px;
@@ -3604,6 +3605,7 @@ footer div p{
         height: auto !important;
     }
     .flecha{
+        z-index: 1000;
         position: absolute;
         top: 325px;
         left: 280px;
@@ -4180,6 +4182,7 @@ footer div p{
         height: auto !important;
     }
     .flecha{
+        z-index: 1000;
         position: absolute;
         top: 325px;
         left: 280px;
@@ -4762,6 +4765,7 @@ footer div p{
         height: auto !important;
     }
     .flecha{
+        z-index: 1000;
         position: absolute;
         top: 325px;
         left: 280px;
@@ -5315,6 +5319,7 @@ footer div p{
         height: auto !important;
     }
     .flecha{
+        z-index: 1000;
         position: absolute;
         top: 325px;
         left: 280px;
@@ -5867,6 +5872,7 @@ footer div p{
         height: auto !important;
     }
     .flecha{
+        z-index: 1000;
         position: absolute;
         top: 325px;
         left: 280px;
@@ -6435,6 +6441,7 @@ footer div p{
         margin-bottom: 0px;
     }
     .flecha{
+        z-index: 1000;
         position: absolute;
         top: 262px;
         left: 226px;
