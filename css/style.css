@@ -1711,12 +1711,10 @@ footer div p{
         justify-content: center;
         align-items: center;
     }
-    
-    
     #linea{
         margin-top: -550px;
         width: 25px;
-        height: 530px;
+        height: 450px;
     }
     .flecha{
         width: 105px;
@@ -2403,7 +2401,7 @@ footer div p{
         background-size: cover;
         align-items: center;
         justify-content: center;
-        height: auto;
+        height: auto !important;
     }
     .flecha{
         position: absolute;
@@ -4697,7 +4695,7 @@ footer div p{
         position: relative;
         background-image: url(/img/rectangulo-degradado.png);
         background-size: cover;
-        height: 600px;
+        height: auto !important;
     }
     .flecha{
         position: absolute;
@@ -5780,7 +5778,7 @@ footer div p{
         position: relative;
         background-image: url(/img/rectangulo-degradado.png);
         background-size: cover;
-        height: 600px;
+        height: auto !important;
     }
     .flecha{
         position: absolute;
