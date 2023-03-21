@@ -1607,7 +1607,51 @@ footer div p{
 }
 @media only screen and (max-width:1440px){
     
-    
+    .card-servicio{
+        margin-right: 20px;
+        width: auto;
+        height: auto;
+        background-color: #181818;
+        border-radius: 20px;
+        margin-top: 126px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        margin-left: 100px;
+    }
+    .card-servicio-2{
+        width: auto;
+        height: auto;
+        background-color: #181818;
+        border-radius: 20px;
+        margin-right: 170px;
+        margin-top: 126px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        margin-left: 0px;
+    }
+    .card-servicio-3{
+        width: auto;
+        height: 255px;
+        background-color: #181818;
+        border-radius: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        margin-left: 100px;
+    }
+    .card-servicio-4{
+        width: auto;
+        height: auto;
+        background-color: #181818;
+        border-radius: 20px;
+        margin-right: 170px;
+        margin-top: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        margin-left: 0px;
+        margin-bottom: 178px;
+    }
     /* TEAMS */
 
 .teams{
