@@ -3884,9 +3884,9 @@ footer div p{
         margin-bottom: 70px;
     }
     #linea{
-        margin-top: -510px;
+        margin-top: -480px;
         width: 25px;
-        height: 300px;
+        height: 260px;
     }
     .cardhero{
         position: relative;
@@ -4463,9 +4463,17 @@ footer div p{
     margin-top: 38px;
 }
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 885px){
+    .flecha{
+        position: absolute;
+        top: 305px;
+        left: 435px;
+        width: 105px;
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (max-width: 805px){
     .body{
-
         zoom: 100%;
     }
                 /* HERO */
@@ -4513,7 +4521,7 @@ footer div p{
     }
     .flecha{
         position: absolute;
-        top: 35px;
+        top: 350px;
         left: 380px;
         width: 105px;
         margin-bottom: 40px;
