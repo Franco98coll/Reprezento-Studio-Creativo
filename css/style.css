@@ -2162,7 +2162,7 @@ footer div p{
     }
     
     .accordion-header:hover:not(.active) {
-        background-color: orange;
+        background-color: #FE3B1F;
     }
     .accordion-header:hover:not(.active) .cruz {
         color: #ffffff;
@@ -2912,7 +2912,7 @@ footer div p{
     }
     
     .accordion-header:hover:not(.active) {
-        background-color: orange;
+        background-color: #FE3B1F;
     }
     .accordion-header:hover:not(.active) .cruz {
         color: #ffffff;
