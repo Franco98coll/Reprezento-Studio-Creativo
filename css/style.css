@@ -387,7 +387,7 @@ header{
     border-radius: 20px;
     background-size: cover;
     background-position: -300px;
-    background-image: url(/img/IMG-20190719-WA0151.jpg);
+    background-image: url(./img/IMG-20190719-WA0151.jpg);
     transition: all 300ms ease-in-out;
     margin-right: 20px;
     width: 450px;
