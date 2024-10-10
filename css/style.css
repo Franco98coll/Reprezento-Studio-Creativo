@@ -386,13 +386,14 @@ header{
 .carta{
     border-radius: 20px;
     background-size: cover;
-    background-position: -300px;
-    background-image: url(../img/IMG-20190719-WA0151.jpg);
+    background-position: -100px;
+    background-image: url(../img/hom.jpg);
     transition: all 300ms ease-in-out;
     margin-right: 20px;
     width: 450px;
     height: 424px;
 }
+
 .carta img{
     border-radius: 20px;
     width: 250px;
@@ -410,6 +411,234 @@ header{
     flex-grow: 1;
 }
 .carta p{
+    padding-top: 20px;
+    transform: scale(0.9);
+    border-radius: 20px;
+    margin-top: 330px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+    background-color: #FE3B1F;
+    height: 70px;
+    opacity: 0;
+}
+.carta1{
+    border-radius: 20px;
+    background-size: cover;
+    background-position: -200px;
+    background-image: url(../img/istockphoto-1483329842-612x612.jpg);
+    transition: all 300ms ease-in-out;
+    margin-right: 20px;
+    width: 450px;
+    height: 424px;
+}
+.carta1 img{
+    border-radius: 20px;
+    width: 250px;
+    height: 424px;
+}
+.carta1:hover {
+    width: 850px;
+    flex-grow: 2;
+}
+.carta1:hover p{
+    opacity: 1;
+}
+.carta1:not(:hover)  {
+    width: 350px;
+    flex-grow: 1;
+}
+.carta1 p{
+    padding-top: 20px;
+    transform: scale(0.9);
+    border-radius: 20px;
+    margin-top: 330px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+    background-color: #FE3B1F;
+    height: 70px;
+    opacity: 0;
+}
+.carta2{
+    border-radius: 20px;
+    background-size: cover;
+    background-position: -450px;
+    background-image: url(../img/lala.jpg);
+    transition: all 300ms ease-in-out;
+    margin-right: 20px;
+    width: 450px;
+    height: 424px;
+}
+.carta2 img{
+    border-radius: 20px;
+    width: 250px;
+    height: 424px;
+}
+.carta2:hover {
+    width: 850px;
+    flex-grow: 2;
+}
+.carta2:hover p{
+    opacity: 1;
+}
+.carta2:not(:hover)  {
+    width: 350px;
+    flex-grow: 1;
+}
+.carta2 p{
+    padding-top: 20px;
+    transform: scale(0.9);
+    border-radius: 20px;
+    margin-top: 330px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+    background-color: #FE3B1F;
+    height: 70px;
+    opacity: 0;
+}
+.carta3{
+    border-radius: 20px;
+    background-size: cover;
+    background-position: 0px;
+    background-image: url(../img/ombre.jpg);
+    transition: all 300ms ease-in-out;
+    margin-right: 20px;
+    width: 450px;
+    height: 424px;
+}
+.carta3 img{
+    border-radius: 20px;
+    width: 250px;
+    height: 424px;
+}
+.carta3:hover {
+    width: 850px;
+    flex-grow: 2;
+}
+.carta3:hover p{
+    opacity: 1;
+}
+.carta3:not(:hover)  {
+    width: 350px;
+    flex-grow: 1;
+}
+.carta3 p{
+    padding-top: 20px;
+    transform: scale(0.9);
+    border-radius: 20px;
+    margin-top: 330px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+    background-color: #FE3B1F;
+    height: 70px;
+    opacity: 0;
+}
+.carta4{
+    border-radius: 20px;
+    background-size: cover;
+    background-position: -200px;
+    background-image: url(../img/istockphoto-1483329842-612x612.jpg);
+    transition: all 300ms ease-in-out;
+    margin-right: 20px;
+    width: 450px;
+    height: 424px;
+}
+.carta4 img{
+    border-radius: 20px;
+    width: 250px;
+    height: 424px;
+}
+.carta4:hover {
+    width: 850px;
+    flex-grow: 2;
+}
+.carta4:hover p{
+    opacity: 1;
+}
+.carta4:not(:hover)  {
+    width: 350px;
+    flex-grow: 1;
+}
+.carta4 p{
+    padding-top: 20px;
+    transform: scale(0.9);
+    border-radius: 20px;
+    margin-top: 330px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+    background-color: #FE3B1F;
+    height: 70px;
+    opacity: 0;
+}
+.carta5{
+    border-radius: 20px;
+    background-size: cover;
+    background-position: -100px;
+    background-image: url(../img/mujer-feliz_0.jpg.webp);
+    transition: all 300ms ease-in-out;
+    margin-right: 20px;
+    width: 450px;
+    height: 424px;
+}
+.carta5 img{
+    border-radius: 20px;
+    width: 250px;
+    height: 424px;
+}
+.carta5:hover {
+    width: 850px;
+    flex-grow: 2;
+}
+.carta5:hover p{
+    opacity: 1;
+}
+.carta5:not(:hover)  {
+    width: 350px;
+    flex-grow: 1;
+}
+.carta5 p{
+    padding-top: 20px;
+    transform: scale(0.9);
+    border-radius: 20px;
+    margin-top: 330px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+    background-color: #FE3B1F;
+    height: 70px;
+    opacity: 0;
+}
+.carta6{
+    border-radius: 20px;
+    background-size: cover;
+    background-position: -300px;
+    background-image: url(../img/IMG-20190719-WA0151.jpg);
+    transition: all 300ms ease-in-out;
+    margin-right: 20px;
+    width: 450px;
+    height: 424px;
+}
+.carta6 img{
+    border-radius: 20px;
+    width: 250px;
+    height: 424px;
+}
+.carta6:hover {
+    width: 850px;
+    flex-grow: 2;
+}
+.carta6:hover p{
+    opacity: 1;
+}
+.carta6:not(:hover)  {
+    width: 350px;
+    flex-grow: 1;
+}
+.carta6 p{
     padding-top: 20px;
     transform: scale(0.9);
     border-radius: 20px;
